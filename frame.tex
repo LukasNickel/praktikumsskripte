@@ -1,0 +1,52 @@
+%lots of stuff missing of the later chapters, add that before writing the first skript
+
+
+\documentclass[titlepage=firstiscover]{scrartcl}
+\usepackage[aux]{rerunfilecheck}
+\usepackage{polyglossia}
+\setmainlanguage{german}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage[
+math-style=ISO,
+bold-style=ISO,
+sans-style=italic,
+nabla=upright,
+partial=upright
+]{unicode-math}
+\setmathfont{Tex Gyre Pagella Math}
+\usepackage[
+locale=DE,
+separate-uncertainty=true, % Immer Fehler mit ±
+per-mode=symbol-or-fraction, % m/s im Text, sonst \frac
+% alternativ:
+% per-mode=reciprocal, % m s^{-1}
+% decimal-marker=., % . statt , für Dezimalzahlen
+]{siunitx}
+\usepackage[unicode]{hyperref}
+\usepackage{bookmark}
+% Einstellungen hier, z.B. Fonts
+\begin{document}
+
+  \title{Versuch 111}
+  \author{Lukas Nickel}
+  \date{Durchführung: 1.1.1111, Abgabe: 3.1.41}
+  \maketitle
+
+  \tableofcontents
+  %\newpage
+
+  \section{Überschrift}
+  \subsection{Überschrift}
+  \subsubsection{Überschrift}
+  \paragraph{Überschrift} % wird nicht nummeriert
+  \subparagraph{Überschrift} % wird nicht nummeriert
+
+  %\part{Überschrift} für report und book (scrrprt, scrbook)
+  %\chapter{Überschrift}
+  %\section{Überschrift}
+
+  % Text hier
+\end{document}

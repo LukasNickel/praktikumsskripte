@@ -1,0 +1,9 @@
+#phi(Phasenverschiebung(am Phase Shifter!!), deg) UoutAmpl(U am Oszilloskop, von Max zu Min, in V) Wert(am Tiefpass) Gain(am Tiefpass)
+0 3.2 3 2
+45 4.84 1.8 2
+90 5.2 -0.6 2
+135 4.12 -2.5 2
+180 3.32 -3 2
+210 4.28 -2.5 2
+270 5.16 0.6 2
+340 2.92 3 2 

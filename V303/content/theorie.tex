@@ -1,4 +1,43 @@
 \section{Theorie}
 \label{sec:Theorie}
+\subsection{Zielsetzung}
+\label{sec:Zielsetzung}
+Ziel des durchgeführten Versuches ist es die Funktionsweise und technischen
+Hintergründe des Lock-In-Verstärkers kennenzulernen. Dazu werden einige
+Messungen mit verschiedenen Signalen vorgenommen.
+
+\subsection{Theoretische Grundlagen}
+\label{sec:Grundlagen}
+Der Lock in Verstärker wird hauptsächlich dafür eingesetzt verrauschte Signale
+zu messen. Gegenüber einem gewöhnlichen Bandpass bietet ein Lock-In-Verstärker
+den Vorteil um einige Größenordnungen höhere Güten zu erzielen.
+Der Aufbau eines Lock-In-Verstärkers gestaltet sich wie folgt:
+Zunächst wird das Signal auf die Referenzfrequenz $\omega_0$ moduliert.
+Danach wird die Signalspannung durch einen Bandpaß geschickt. Dadurch
+können bereits Rauschanteile mit einer von der Signalspannung verschiedenen
+Frequenz herausgefiltert werden.
+Daraufhin wird das Signal mit einer Referenzspannung gemischt. Mit dem
+Phasenverschieber lässt sich die Phase zwischen Signal- und Referenzspannung
+anpassen.
+In nachfolgendem Tiefpass wird die gemischte Spannung integriert und auf diese
+Weise von noch vorhandenem Rauschen befreit. Dabei ist zu beachten, dass der
+Tiefpass nur für gleiche Frequenzen einen Wert ungleich null liefert. Dies liegt
+darin begründet, dass der Tiefpass - so wie er in einem Lock-in-Verstärker
+genutzt wird - die Kreuzkorrelation zwischen Referenz- und Signalspannung
+berechnet, der Tiefpaß integriert also $U_s_i_g \cdot U_r_e_f$.
+
+Betrachen wir das Beipiel eine sinusförmige Signalspannung $U_s = U_0 sin(\omega
+t)$, die moduliert wird durch eine Rechteckspannung $U_r_e_f$. Die Frequenzen
+beider Spannungen sind identisch, bezeichnet mit $\omega$,
+die Phasenverschiebung ist gegeben durch $\phi$. Wenn man die Referenzspannung
+mittels ihrer Fourierreihe nähert, erhält man
+\begin{equation}
+  U_r_e_f = 4/\pi (sin(\omega t) + 1/3 sin(3\omega t)+...).
+\end{equation}
+Damit ergibt sich die gemischte Spannung zu:
+\begin{equation}
+  U_s \cdot U_r_e_f = 2/\pi U_0(1-2/3 cos(2\oemga t) - 2/15 cos(4\omega t)+ ...)
+
+
 
 \cite{sample}

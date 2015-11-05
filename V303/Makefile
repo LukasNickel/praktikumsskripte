@@ -15,10 +15,10 @@ build/plot.pdf: plot.py matplotlibrc header-matplotlib.tex | build
 	TEXINPUTS="$(call translate,$(pwd):)" python plot.py
 
 # hier weitere Abhängigkeiten für build/main.pdf deklarieren:
-build/main.pdf: build/plot.pdf
+build/main.pdf: build/plot.pdf content/theorie.tex content/diskussion.tex content/durchfuehrung.tex content/auswertung.tex
 
 build/main.pdf: FORCE | build
-	  TEXINPUTS="$(call translate,build:)" \
+		TEXINPUTS="$(call translate,build:,content:)" \
 	  BIBINPUTS=build: \
 	  max_print_line=1048576 \
 	latexmk \
@@ -27,6 +27,7 @@ build/main.pdf: FORCE | build
 	  --interaction=nonstopmode \
 	  --halt-on-error \
 	main.tex
+
 
 build:
 	mkdir -p build

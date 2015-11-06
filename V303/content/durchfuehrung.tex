@@ -1,2 +1,48 @@
 \section{Durchführung}
 \label{sec:Durchführung}
+
+Bei dem Versuch kommen ein Lock-In-verstärker, ein Oszilloskop, eine
+LED und eine Photodiode zum Einsatz. Der Lock-In-Verstärker beinhaltet
+einen Funktionsgenerator  mit 2 Ausgängen, einen Phasenschieber und einen
+rauschgenerator.
+
+\subsection{Funktionsweise}
+Der erste Teil des Versuches befasst sich mit der Fuktionsweise des Geräts.
+Dafür werden die Spannungen an beiden Ausgänge des Funktionsgenerators einzeln
+vermessen. Dabei wird festgestellt, dass der linke Ausgang eine regelbare
+Spannung generiert, während die Amplitude der Spannung an dem rechten
+Ausgang konstant bei 4,48 $V$ liegt.
+
+\subsection{Mischen der Signale}
+In dem zweiten Versuchsabschnitt werden die beiden generierten Signale gemischt
+und integriert. Dafür wird folgende Schaltung aufgebaut:
+Abbildung aus Protokoll
+Der Rauschgenerator (Noise Gen. auf Abbildung) wird zunächst nicht verwendet.
+Die Signalspannung mit einer Frequenz von ~1Khz und einer Amplitude von 1V
+wird verstärkt und mit der
+Referenzspannung gemischt. Gemessen werden die Ausgangsspannung sowie die
+integrierte Ausgangsspannung für verschiedene Phasenverschiebungen $\phi$. Auf
+Weise wird die Phasenabhängigkeit der integrierten Spannung nachgewiesen.
+
+\subsection{Rauschgenerator}
+Für diesen Versuchsteil wird der Signalspannung ein Rauschen beigefügt. Dazu
+wird der Rauschgenerator eingestellt und ein Rauschen erzeugt, dessen
+Größenordnung um eine unter der des Signals liegt. Daraufhin werden alle
+Messungen aus dem zweiten Versuhsteil wiederholt um die Werte mit den
+unverrauschten Werten zu vergleichen. Die Messungen ergeben, dass das Integral
+der gemischten Spannung identisch ist - unabhängig von dem Rauschen.
+
+\subsection{LED und Photodiode}
+Im letzten Abschnitt wird die aus den anderen Versuchsteilen bekannte Schaltung
+leicht abgewandelt. Anstatt die Signalspannung direkt zu vermessen wird mit ihr
+eine LED betrieben. Die Frequenz beträgt dabei ~250 Hz, die Amplitude ist
+maximal mit 4,48V. Das von der LED ausgestrahlte Licht wird von einer Photodiode
+im Abstand $r$ vermessen. Die Photodiode ist an den Eingang des Verstärkers
+angeschlossen und wird - nachdem es den Bandpass passiert hat - mit der
+Referenzspannung gemischt und an die resultierende Spannung an
+Oszilloskop und Tiefpaß bestimmt. Da die Signalfrequenz von der Netzfrequenz
+abweicht, wird das durch die Raumbeleuchtung hervorgerufene Signal am Bandpaß
+zum großen Teil ausgefiltert. Dadurch lässt sich die Lichtintensität in
+Abhängigkeit von $r$ messen und ein maximaler Abstand für die Detektierung
+bestimmen. In diesem Versuch lässt sich allerdings nur nachweisen, dass
+dieses $r_{max}$ größer als der maximale Abstand der Apparatur ist.

@@ -29,15 +29,13 @@ berechnet, der Tiefpaß integriert also $U_s_i_g \cdot U_r_e_f$.
 Betrachen wir das Beipiel eine sinusförmige Signalspannung $U_s = U_0 sin(\omega
 t)$, die moduliert wird durch eine Rechteckspannung $U_r_e_f$. Die Frequenzen
 beider Spannungen sind identisch, bezeichnet mit $\omega$,
-die Phasenverschiebung ist gegeben durch $\phi$. Wenn man die Referenzspannung
-mittels ihrer Fourierreihe nähert, erhält man
-\begin{equation}
-  U_r_e_f = 4/\pi (sin(\omega t) + 1/3 sin(3\omega t)+...).
-\end{equation}
-Damit ergibt sich die gemischte Spannung zu:
-\begin{equation}
-  U_s \cdot U_r_e_f = 2/\pi U_0(1-2/3 cos(2\oemga t) - 2/15 cos(4\omega t)+ ...)
+die Phasenverschiebung ist gegeben durch $\phi$.
+Der Tiefpaß integriert $U_s_i_g \cdot U_r_e_f$ über einige Perioden und
+unterdrückt dabei die Oberwellen, sodass man eine Gleichspannung erhält, die
+proporional zu der Signalspannung ist:
+$U_{out} = 2/\pi U_0cos(\phi).
 
-
+Die Ausgangsspannung hängt also von der Phasenverschiebung ab und ist maximal
+für $\phi$ =0.
 
 \cite{sample}

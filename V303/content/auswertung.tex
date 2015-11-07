@@ -17,14 +17,14 @@ vernachlässigt. Als Beispiel dient ein Messwert, der bei $\phi = 0°$
 aufgezeichnet wurde, die Amplitude der UAusgangsspannung beträgt 3,04V.
 \begin{figure}
   \centering
-  \includegraphics{graphics/ALL0031/F0031TEK.jpg}[width=\textwidth]
+  \includegraphics[angle=90,width=\textwidth]{graphics/ALL0031/F0031TEK.jpg}
   \caption{$U_{out}$ nach Mischen}
   \label{fig:2/phi0}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics{plot2u.pdf}[width=0.6\textwidth]
+  \includegraphics[width=\textwidth]{plot2u.pdf}
   \caption{$U_{out}$ nach Mischen}
   \label{fig:plot2u}
 \end{figure}
@@ -36,7 +36,7 @@ liegen hierbei bei etwa 90° bzw. 270°.
 
 \begin{figure}
   \centering
-  \includegraphics{plot2low.pdf}
+  \includegraphics[width=\textwidth]{plot2low.pdf}
   \caption{Integral der gemischten Ausgangsspannung}
   \label{fig:plot2low}
 \end{figure}
@@ -51,7 +51,7 @@ Nach Zuschalten des Rauschgenerators ergeben sich folgende Messwerte für
 $U_{out}$ in Abhängigkeit von $\phi$:
 \begin{figure}
   \centering
-  \includegraphics{plot3u.pdf}
+  \includegraphics[width=\textwidth]{plot3u.pdf}
   \caption{$U_{out}$ mit Rauschen}
   \label{fig:plot3u}
 \end{figure}
@@ -62,7 +62,7 @@ Spannung für $\phi=0°$ dargestellt, analog zu \ref{fig:2/phi0}.
 
 \begin{figure}
   \centering
-  \includegraphics{graphics/ALL0039/F0039TEK.jpg}
+  \includegraphics[angle=90,width=\textwidth]{graphics/ALL0039/F0039TEK.jpg}
   \caption{$U_{out}$ nach Mischen}
   \label{fig:3/phi0}
 \end{figure}
@@ -74,7 +74,7 @@ Die Messwerte an dem Tiefpaß sehen wie folgt aus:
 
 \begin{figure}
   \centering
-  \includegraphics{plot3low.pdf}
+  \includegraphics[width=\textwidth]{plot3low.pdf}
   \caption{Integral der gemischten Ausgangsspannung mit Rauschen}
   \label{fig:plot3low}
 \end{figure}
@@ -86,124 +86,119 @@ herausgemittelt.
 
 Im folgenden sind alle Meßwerte (mit und ohne Rauschen) dargestellt:
 \begin{figure}
-\caption{$U_{out}$}
+\caption{$U_{out}$ (links ohne, rechts mit Rauschen)}
 \centering
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen}
-\includegraphics[height=0.75cm]{graphics/ALL0031/F0031TEK.jpg}
+\caption{$\phi=0°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0031/F0031TEK.jpg}
+
 \label{fig:phi0o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen}
-\includegraphics[height=0.75cm]{graphics/ALL0039/F0039TEK.jpg}
+\caption{$\phi=0°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0039/F0039TEK.jpg}
 \label{fig:phi0m}
 \end{subfigure}
 
-\\
-
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0032/F0032TEK.jpg}
+\caption{$\phi=135°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0032/F0032TEK.jpg}
 \label{fig:phi135o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0040/F0040TEK.jpg}
+\caption{$\phi=135°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0040/F0040TEK.jpg}
 \label{fig:phi135m}
 \end{subfigure}
 
-\\
-
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0033/F0033TEK.jpg}
+\caption{$\phi=90°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0033/F0033TEK.jpg}
 \label{fig:phi90o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0041/F0041TEK.jpg}
+\caption{$\phi=90°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0041/F0041TEK.jpg}
 \label{fig:phi90m}
 \end{subfigure}
 
-
-\\
-
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0034/F0034TEK.jpg}
+\caption{$\phi=180°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0034/F0034TEK.jpg}
 \label{fig:phi180o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0042/F0042TEK.jpg}
+\caption{$\phi=180°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0042/F0042TEK.jpg}
 \label{fig:phi180m}
 \end{subfigure}
 
-\\
-
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0035/F0035TEK.jpg}
+\caption{$\phi=270°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0035/F0035TEK.jpg}
 \label{fig:phi270o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0043/F0043TEK.jpg}
+\caption{$\phi=270°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0043/F0043TEK.jpg}
 \label{fig:phi270m}
 \end{subfigure}
 
-\\
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0036/F0036TEK.jpg}
+\caption{$\phi=210°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0036/F0036TEK.jpg}
 \label{fig:phi210o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0044/F0044TEK.jpg}
+\caption{$\phi=210°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0044/F0044TEK.jpg}
 \label{fig:phi210m}
 \end{subfigure}
 
-\\
-
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0037/F0037TEK.jpg}
+\caption{$\phi=45°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0037/F0037TEK.jpg}
 \label{fig:phi45o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0045/F0045TEK.jpg}
+\caption{$\phi=45°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0045/F0045TEK.jpg}
 \label{fig:phi45m}
 \end{subfigure}
 
-\\
-
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0038/F0038TEK.jpg}
+\caption{$\phi=340°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0038/F0038TEK.jpg}
 \label{fig:phi340o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\includegraphics[height=0.75cm]{graphics/ALL0046/F0046TEK.jpg}
+\caption{$\phi=340°$:}
+\includegraphics[angle=90,height=5cm]{graphics/ALL0046/F0046TEK.jpg}
 \label{fig:phi340m}
 \end{subfigure}
-
 
 \label{fig:U_out}
 \end{figure}
 
 \subsection{Auswertung: LED und Photodiode}
 
-\begin{figure}
-  \centering
-  \includegraphics{plot4.pdf}
-  \caption{Integriertes Signal}
-  \label{fig:plot4}
-\end{figure}
+
 
 In \ref{fig:plot4} ist das am Tiefpaß integrierte Signal in Abhängigkeit von
 dem Abstand $r$ zwischen LED und Photodiode dargestellt. Das erwartete Ergebnis
@@ -217,3 +212,9 @@ sodass die Diode kein Licht der LED mehr empfangen kann, ergibt sich am
 Tiefpaß ein Wert von 0,2 (mit Gain = 1000). Das zeigt, dass die Diode auch
 bei $r$=1,86m noch licht der LED empfängt, dass mit dem Lock-In-Verstärker
 ausgewertet werden kann.
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{plot4.pdf}
+  \caption{Integriertes Signal}
+  \label{fig:plot4}
+\end{figure}

@@ -24,17 +24,17 @@ Weise von noch vorhandenem Rauschen befreit. Dabei ist zu beachten, dass der
 Tiefpass nur für gleiche Frequenzen einen Wert ungleich null liefert. Dies liegt
 darin begründet, dass der Tiefpass - so wie er in einem Lock-in-Verstärker
 genutzt wird - die Kreuzkorrelation zwischen Referenz- und Signalspannung
-berechnet, der Tiefpaß integriert also $U_s_i_g \cdot U_r_e_f$.
+berechnet, der Tiefpaß integriert also $U_{sig} \cdot U_{ref}$.
 
 Betrachen wir das Beipiel eine sinusförmige Signalspannung $U_s = U_0 sin(\omega
-t)$, die moduliert wird durch eine Rechteckspannung $U_r_e_f$. Die Frequenzen
+t)$, die moduliert wird durch eine Rechteckspannung $U_{ref}$. Die Frequenzen
 beider Spannungen sind identisch, bezeichnet mit $\omega$,
 die Phasenverschiebung ist gegeben durch $\phi$.
-Der Tiefpaß integriert $U_s_i_g \cdot U_r_e_f$ über einige Perioden und
+Der Tiefpaß integriert $U_{sig} \cdot U_{ref}$ über einige Perioden und
 unterdrückt dabei die Oberwellen, sodass man eine Gleichspannung erhält, die
 proporional zu der Signalspannung ist:
 \begin{equation}
-$U_{out} = 2/\pi U_0cos(\phi)$.
+U_{out} = 2/\pi U_0cos(\phi).
 \label{eqn:Uout}
 \end{equation}
 

@@ -1,9 +1,219 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
+\subsection{Auswertung: Funktionsgenerator}
+Die Messung ergibt eine gleichbleibende Spannungsamplitude von 4,48V für den
+rechten Ausgang (betitelt mit Phase Shifter)
+Am linken Ausgang lässt sich die Spannungsamplitude bis zu der Amplitude des
+anderen Ausgangs regeln, also maximal 4,48V.
+
+\subsection{Auswerung: Mischen der Signale}
+
+Die Signalspannung wird im folgenden mit einer Amplitude von 1V und einer
+Frequenz von 1kHz betrieben. Als Amplitude wird die Spannung zwischen
+oberer und unterer Halbwelle bezeichnet; als Phasenverschiebung der Wert, am
+Gerät eingestellt wird. Die interne Phasenverschiebung wird zunächst
+vernachlässigt. Als Beispiel dient ein Messwert, der bei $\phi = 0°$
+aufgezeichnet wurde, die Amplitude der UAusgangsspannung beträgt 3,04V.
 \begin{figure}
   \centering
-  \includegraphics{plot.pdf}
-  \caption{Plot.}
-  \label{fig:plot}
+  \includegraphics{graphics/ALL0031/F0031TEK.jpg}[width=\textwidth]
+  \caption{$U_{out}$ nach Mischen}
+  \label{fig:2/phi0}
 \end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{plot2u.pdf}[width=0.6\textwidth]
+  \caption{$U_{out}$ nach Mischen}
+  \label{fig:plot2u}
+\end{figure}
+
+In \ref{fig:plot2u} ist die gemischte Ausgangsspannung $U_{out}$ gegen die
+Phasenverschiebung $\phi$ aufgetragen. Gut zu erkennen ist die Abhängigkeit
+der Ausgangsspannung von der Phasenverschiebung. Die Maxima von $U_{out}$
+liegen hierbei bei etwa 90° bzw. 270°.
+
+\begin{figure}
+  \centering
+  \includegraphics{plot2low.pdf}
+  \caption{Integral der gemischten Ausgangsspannung}
+  \label{fig:plot2low}
+\end{figure}
+
+In \ref{fig:plot2low} ist das am Tiefpaß integrierte Signal gegen die
+Phasenverschiebung $\phi$ aufgetragen. Maximale Werte ergeben sich um $\phi = 0°$
+herum, das Minimum liegt bei ca. $\phi = 180°$. Das deckt sich mit der Formel
+\eqref{eqn:Uout}, in der $\phi$ in einem Cosinus auftaucht.
+
+\subsection{Auswertung:Rauschgenerator}
+Nach Zuschalten des Rauschgenerators ergeben sich folgende Messwerte für
+$U_{out}$ in Abhängigkeit von $\phi$:
+\begin{figure}
+  \centering
+  \includegraphics{plot3u.pdf}
+  \caption{$U_{out}$ mit Rauschen}
+  \label{fig:plot3u}
+\end{figure}
+
+Wie unschwer in \ref{fig:plot3u} zu erkennnen ist, ergeben sich sehr ähnliche
+Messwerte nach Filterung und Mischen. Im folgender Abbildung ist die
+Spannung für $\phi=0°$ dargestellt, analog zu \ref{fig:2/phi0}.
+
+\begin{figure}
+  \centering
+  \includegraphics{graphics/ALL0039/F0039TEK.jpg}
+  \caption{$U_{out}$ nach Mischen}
+  \label{fig:3/phi0}
+\end{figure}
+
+Gut sichtbar ist das nicht vollständig rausgefilterte Rauschen, die Form der
+Spannung ähnelt aber stark der aus \ref{fig:2/phi0}.
+
+Die Messwerte an dem Tiefpaß sehen wie folgt aus:
+
+\begin{figure}
+  \centering
+  \includegraphics{plot3low.pdf}
+  \caption{Integral der gemischten Ausgangsspannung mit Rauschen}
+  \label{fig:plot3low}
+\end{figure}
+
+und unterscheiden sich damit überhaupt nicht von denen ohne zugeschalteten
+Rauschgenerator. Der Grund dafür ist, dass der Tiefpaß die Spannung über mehrere
+Periodendauern integriert. Daher wird das verbliebene rauschen einfach
+herausgemittelt.
+
+Im folgenden sind alle Meßwerte (mit und ohne Rauschen) dargestellt:
+\begin{figure}
+\caption{$U_{out}$}
+\centering
+\begin{subfigure}{0.48\textwidth}
+\centering
+\caption{ohne Rauschen}
+\includegraphics[height=0.75cm]{graphics/ALL0031/F0031TEK.jpg}
+\label{fig:phi0o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\caption{mit Rauschen}
+\includegraphics[height=0.75cm]{graphics/ALL0039/F0039TEK.jpg}
+\label{fig:phi0m}
+\end{subfigure}
+
+\\
+
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0032/F0032TEK.jpg}
+\label{fig:phi135o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0040/F0040TEK.jpg}
+\label{fig:phi135m}
+\end{subfigure}
+
+\\
+
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0033/F0033TEK.jpg}
+\label{fig:phi90o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0041/F0041TEK.jpg}
+\label{fig:phi90m}
+\end{subfigure}
+
+
+\\
+
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0034/F0034TEK.jpg}
+\label{fig:phi180o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0042/F0042TEK.jpg}
+\label{fig:phi180m}
+\end{subfigure}
+
+\\
+
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0035/F0035TEK.jpg}
+\label{fig:phi270o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0043/F0043TEK.jpg}
+\label{fig:phi270m}
+\end{subfigure}
+
+\\
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0036/F0036TEK.jpg}
+\label{fig:phi210o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0044/F0044TEK.jpg}
+\label{fig:phi210m}
+\end{subfigure}
+
+\\
+
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0037/F0037TEK.jpg}
+\label{fig:phi45o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0045/F0045TEK.jpg}
+\label{fig:phi45m}
+\end{subfigure}
+
+\\
+
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0038/F0038TEK.jpg}
+\label{fig:phi340o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\includegraphics[height=0.75cm]{graphics/ALL0046/F0046TEK.jpg}
+\label{fig:phi340m}
+\end{subfigure}
+
+
+\label{fig:U_out}
+\end{figure}
+
+\subsection{Auswertung: LED und Photodiode}
+
+\begin{figure}
+  \centering
+  \includegraphics{plot4.pdf}
+  \caption{Integriertes Signal}
+  \label{fig:plot4}
+\end{figure}
+
+In \ref{fig:plot4} ist das am Tiefpaß integrierte Signal in Abhängigkeit von
+dem Abstand $r$ zwischen LED und Photodiode dargestellt. Das erwartete Ergebnis
+ist, dass die Spannung mit steigendem Abstand abnimmt. Interessanterweise
+sind die 1,86m der Versuchsapparatur allerding nicht genug um die Intensität
+des Lichts der LED soweit abzuschwächen, dass die Photodiode kein Signal
+mehr detektieren könnte. Bei diesem maximalen Abstand ist am Tiefpaß noch ein
+Wert von 0,5 (mit Gain = 1000) abzulesen. Wenn der Weg zwischen LED und
+Diode unterbrochen wird (z.B. indem eine Hand vor die LED gehalten wird),
+sodass die Diode kein Licht der LED mehr empfangen kann, ergibt sich am
+Tiefpaß ein Wert von 0,2 (mit Gain = 1000). Das zeigt, dass die Diode auch
+bei $r$=1,86m noch licht der LED empfängt, dass mit dem Lock-In-Verstärker
+ausgewertet werden kann.

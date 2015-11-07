@@ -17,16 +17,8 @@ build/plot.pdf: plot.py matplotlibrc header-matplotlib.tex | build
 # hier weitere Abhängigkeiten für build/main.pdf deklarieren:
 build/main.pdf: build/plot.pdf content/theorie.tex
 
-build/main.pdf: FORCE | build
-	  TEXINPUTS="$(call translate,build:,content:)" \
-	  BIBINPUTS=build: \
-	  max_print_line=1048576 \
-	latexmk \
-	  --lualatex \
-	  --output-directory=build \
-	  --interaction=nonstopmode \
-	  --halt-on-error \
-	main.tex
+build/main.pdf: main.tex
+	lualatex main.tex
 
 build:
 	mkdir -p build

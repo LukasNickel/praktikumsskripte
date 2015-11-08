@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3}Auswertung}{4}{section.3}
 \contentsline {subsection}{\numberline {3.1}Auswertung: Funktionsgenerator}{4}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Auswerung: Mischen der Signale}{5}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Auswertung:Rauschgenerator}{8}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Auswertung: LED und Photodiode}{12}{subsection.3.4}
-\contentsline {section}{\numberline {4}Diskussion}{13}{section.4}
-\contentsline {section}{\nonumberline Literatur}{13}{section*.10}
+\contentsline {subsection}{\numberline {3.3}Auswertung:Rauschgenerator}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Auswertung: LED und Photodiode}{10}{subsection.3.4}
+\contentsline {section}{\numberline {4}Diskussion}{10}{section.4}
+\contentsline {section}{\nonumberline Literatur}{11}{section*.17}

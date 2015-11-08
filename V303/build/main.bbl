@@ -44,39 +44,17 @@
       \verb http://matplotlib.org/
       \endverb
     \endentry
-    \entry{scipy}{software}{}
-      \true{moreauthor}
-      \name{author}{3}{}{%
-        {{hash=4b3d26f886661aa723985bcfd835ba18}{Jones}{J\bibinitperiod}{Eric}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=00f2976ade6b1d16d78161a1f190716c}{Oliphant}{O\bibinitperiod}{Travis\bibnamedelima E.}{T\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=3d6efaaa3d9682e20787eb06ff70a3d7}{Peterson}{P\bibinitperiod}{Pearu}{P\bibinitperiod}{}{}{}{}}%
+    \entry{Wikipedia}{online}{}
+      \list{publisher}{1}{%
+        {Wikipedia}%
       }
-      \strng{namehash}{6161d5ffac903d9c99af53f45c09a00f}
-      \strng{fullhash}{a084ab80d4e88edca8fdd4b590cf2da8}
-      \field{sortinit}{J}
-      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{SciPy}: Open source scientific tools for {Python}}
-      \field{version}{0.16.0}
-      \verb{url}
-      \verb http://www.scipy.org/
-      \endverb
-    \endentry
-    \entry{uncertainties}{software}{}
-      \name{author}{1}{}{%
-        {{hash=fd5e607cc043da9b40442508c133a26c}{Lebigot}{L\bibinitperiod}{Eric\bibnamedelima O.}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{fd5e607cc043da9b40442508c133a26c}
-      \strng{fullhash}{fd5e607cc043da9b40442508c133a26c}
       \field{sortinit}{L}
       \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Uncertainties: a Python package for calculations with uncertainties}
-      \field{version}{2.4.6.1}
+      \field{title}{Lock-in-Verstärker}
+      \field{year}{11.04.2015}
       \verb{url}
-      \verb http://pythonhosted.org/uncertainties/
+      \verb https://de.wikipedia.org/wiki/Lock-in-Verst%C3%A4rker
       \endverb
     \endentry
     \entry{numpy}{article}{}
@@ -123,23 +101,16 @@
       \verb http://physik-praktikum.jimdo.com/
       \endverb
     \endentry
-    \entry{Wikipedia}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f22794f69ce5910cb4be68ff9026570d}{Various}{V\bibinitperiod}{}{}{}{}{}{}}%
-      }
+    \entry{Anleitung}{manual}{}
       \list{publisher}{1}{%
-        {Wikipedia}%
+        {TU Dortmund}%
       }
-      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
-      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
       \field{sortinit}{V}
       \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Lock-in-Verstärker}
-      \field{year}{11.04.2015}
+      \field{title}{Versuch V303: Der Lock-In-Verstärker}
       \verb{url}
-      \verb https://de.wikipedia.org/wiki/Lock-in-Verst%C3%A4rker
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/AP/SKRIPT/LockIn.pdf
       \endverb
     \endentry
   \endsortlist

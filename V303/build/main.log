@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  8 NOV 2015 14:00
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  8 NOV 2015 17:07
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -322,7 +322,7 @@ Lua-only attribute luaotfload@cursbase = 6
 Lua-only attribute luaotfload@curscurs = 7
 Lua-only attribute luaotfload@cursdone = 8
 Lua-only attribute luaotfload@state = 9
-luaotfload | main : fontloader loaded in 0.041 seconds
+luaotfload | main : fontloader loaded in 0.035 seconds
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.find_vf_file' at position 1 in `find_vf_file'.
@@ -831,15 +831,15 @@ luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 41.
+(Font)              `operators' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/LatinModernMath(0)/m/n on input line
- 41.
+ 43.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 41.
+(Font)              `operators' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/LatinModernMath(0)/bx/n on input li
-ne 41.
+ne 43.
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
@@ -895,15 +895,15 @@ e=10-},{Size=7-10,Font=Latin
 . 22\font =163840sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 41.
+(Font)              `symbols' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> EU2/LatinModernMath(1)/m/n on input lin
-e 41.
+e 43.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 41.
+(Font)              `symbols' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> EU2/LatinModernMath(1)/bx/n on input li
-ne 41.
+ne 43.
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "Latin Modern Math" -> "latinmodern-math.otf"
@@ -949,16 +949,16 @@ e=10-},{Size=7-10,Font=Latin
 . \fontdimen 12\font =393216sp\relax \fontdimen 13\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 41
+(Font)              `largesymbols' in the math version `normal' on input line 43
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> EU2/LatinModernMath(2)/m/n on input lin
-e 41.
+e 43.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 41.
+(Font)              `largesymbols' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> EU2/LatinModernMath(2)/bx/n on input li
-ne 41.
+ne 43.
 luaotfload | load : Lookup/name: "XITS Math" -> "xits-math.otf"(load luc: C:/tex
 live/2015/texmf-var/luatex-cache/generic/fonts/otf/xits-math.luc)
 luaotfload | load : Lookup/name: "XITS Math" -> "xits-math.otf"
@@ -1013,10 +1013,10 @@ luaotfload | load : Lookup/name: "XITS Math" -> "xits-math.otf"
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
 (Font)                  EU2/XITSMath(0)/m/n --> EU2/XITSMath(0)/m/n on input lin
-e 42.
+e 44.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 (Font)                  EU2/XITSMath(0)/m/n --> EU2/XITSMath(0)/bx/n on input li
-ne 42.
+ne 44.
 luaotfload | load : Lookup/name: "XITS Math" -> "xits-math.otf"
 luaotfload | load : Lookup/name: "XITS Math" -> "xits-math.otf"
 luaotfload | load : Lookup/name: "XITS Math" -> "xits-math.otf"
@@ -1068,10 +1068,10 @@ luaotfload | load : Lookup/name: "XITS Math" -> "xits-math.otf"
 \sym__um_fam2=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
 (Font)                  EU2/XITSMath(1)/m/n --> EU2/XITSMath(1)/m/n on input lin
-e 43.
+e 45.
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
 (Font)                  EU2/XITSMath(1)/m/n --> EU2/XITSMath(1)/bx/n on input li
-ne 43.
+ne 45.
  (c:/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2015/09/14 v2.6l A comprehensive (SI) units package
 
@@ -1525,7 +1525,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks29
 \@floatcapt=\box54
 )
-Package scrhack Info: loading float hack on input line 68.
+Package scrhack Info: loading float hack on input line 70.
 
 (c:/texlive/2015/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2015/09/29 v3.19 KOMA-Script package (hacking package float)
@@ -1533,6 +1533,8 @@ Package scrhack Info: redefining \newfloat on input line 161.
 Package scrhack Info: redefining \listof on input line 161.
 Package scrhack Info: undefining \float@addtolists on input line 161.
 )
+\@float@every@figure=\toks30
+
 (c:/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
@@ -1788,7 +1790,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 )
 (c:/texlive/2015/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks30
+\MT@toks=\toks31
 \MT@count=\count289
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen257
@@ -2011,7 +2013,7 @@ File: biblatex.cfg
 )))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 116.
+(scrhack)             need that hack, on input line 118.
 
 (c:/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -2166,12 +2168,12 @@ LaTeX Font Info:    ... okay on input line 11.
 \scratchbox=\box55
 \nofMPsegments=\count420
 \nofMParguments=\count421
-\everyMPshowfont=\toks31
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count422
 \MPscratchDim=\dimen263
 \MPnumerator=\count423
 \makeMPintoPDFobject=\count424
-\everyMPtoPDFconversion=\toks32
+\everyMPtoPDFconversion=\toks33
 ) (c:/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -2346,191 +2348,211 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 16.
 \openout4 = main.toc
  [2
 
-] (./content/theorie.tex
-
-LaTeX Warning: Citation 'sample' on page 3 undefined on input line 46.
-
-) (./content/durchfuehrung.tex [3]) (./content/auswertung.tex
-<graphics/ALL0031/F0031TEK.jpg, id=60, 192.72pt x 256.96pt>
+] (./content/theorie.tex) (./content/durchfuehrung.tex
+[3] <Schaltung1.png, id=62, 441.44925pt x 127.07475pt>
+File: Schaltung1.png Graphic file (type png)
+ <use Schaltung1.png>
+Package pdftex.def Info: Schaltung1.png used on input line 22.
+(pdftex.def)             Requested size: 250.95587pt x 72.2414pt.
+)
+(./content/auswertung.tex [4<./Schaltung1.png>]
+<graphics/ALL0031/F0031TEK.jpg, id=70, 192.72pt x 256.96pt>
 File: graphics/ALL0031/F0031TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0031/F0031TEK.jpg>
-Package pdftex.def Info: graphics/ALL0031/F0031TEK.jpg used on input line 20.
+Package pdftex.def Info: graphics/ALL0031/F0031TEK.jpg used on input line 22.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 21.
+(Font)              scaled to size 7.01247pt on input line 23.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 21.
+(Font)              scaled to size 4.9808pt on input line 23.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 21.
+(Font)              scaled to size 7.01224pt on input line 23.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 21.
+(Font)              scaled to size 4.98067pt on input line 23.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
 luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
 luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
-luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf" [4]
-<plot2u.pdf, id=65, 547.82512pt x 403.27411pt>
+luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
+<plot2u.pdf, id=72, 547.82512pt x 403.27411pt>
 File: plot2u.pdf Graphic file (type pdf)
  <use plot2u.pdf>
-Package pdftex.def Info: plot2u.pdf used on input line 27.
-(pdftex.def)             Requested size: 250.95587pt x 184.73915pt.
-
-<plot2low.pdf, id=67, 578.16pt x 433.62pt>
+Package pdftex.def Info: plot2u.pdf used on input line 33.
+(pdftex.def)             Requested size: 250.95772pt x 125.47519pt.
+ [5<./graphics/ALL0031/F0031TEK.jpg><./plot2u.pdf>] <plot2low.pdf, id=123, 578.
+16pt x 433.62pt>
 File: plot2low.pdf Graphic file (type pdf)
- <use plot2low.pdf>
-Package pdftex.def Info: plot2low.pdf used on input line 39.
-(pdftex.def)             Requested size: 250.95587pt x 188.21295pt.
- [5<./graphics/ALL0031/F0031TEK.jpg><./plot2u.pdf>] <plot3u.pdf, id=117, 578.16
-pt x 433.62pt>
-File: plot3u.pdf Graphic file (type pdf)
 
-<use plot3u.pdf>
-Package pdftex.def Info: plot3u.pdf used on input line 54.
-(pdftex.def)             Requested size: 250.95587pt x 188.21295pt.
- [6<./plot2low.pdf><./plot3u.pdf>]
-<graphics/ALL0039/F0039TEK.jpg, id=210, 192.72pt x 256.96pt>
+<use plot2low.pdf>
+Package pdftex.def Info: plot2low.pdf used on input line 44.
+(pdftex.def)             Requested size: 250.9506pt x 125.4753pt.
+
+<graphics/ALL0039/F0039TEK.jpg, id=126, 192.72pt x 256.96pt>
 File: graphics/ALL0039/F0039TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0039/F0039TEK.jpg>
-Package pdftex.def Info: graphics/ALL0039/F0039TEK.jpg used on input line 65.
+Package pdftex.def Info: graphics/ALL0039/F0039TEK.jpg used on input line 59.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
+ <plot3u.pdf, id=129, 578.16pt x 433.62pt>
+File: plot3u.pdf Graphic file (type pdf)
 
-<plot3low.pdf, id=212, 578.16pt x 433.62pt>
+<use plot3u.pdf>
+Package pdftex.def Info: plot3u.pdf used on input line 72.
+(pdftex.def)             Requested size: 250.9506pt x 125.4753pt.
+ [6<./plot2low.pdf><./graphics/ALL0039/F0039TEK.jpg>]
+<plot3low.pdf, id=187, 578.16pt x 433.62pt>
 File: plot3low.pdf Graphic file (type pdf)
  <use plot3low.pdf>
-Package pdftex.def Info: plot3low.pdf used on input line 77.
-(pdftex.def)             Requested size: 250.95587pt x 188.21295pt.
+Package pdftex.def Info: plot3low.pdf used on input line 85.
+(pdftex.def)             Requested size: 250.9506pt x 125.4753pt.
+ [7<./plot3u.pdf><./plot3low.pdf>]
 File: graphics/ALL0031/F0031TEK.jpg Graphic file (type jpg)
-
-<use graphics/ALL0031/F0031TEK.jpg>
-Package pdftex.def Info: graphics/ALL0031/F0031TEK.jpg used on input line 95.
+ <use graphics/ALL0031/F0031TEK.jpg>
+Package pdftex.def Info: graphics/ALL0031/F0031TEK.jpg used on input line 99.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 File: graphics/ALL0039/F0039TEK.jpg Graphic file (type jpg)
- <use graphics/ALL0039/F0039TEK.jpg>
-Package pdftex.def Info: graphics/ALL0039/F0039TEK.jpg used on input line 100.
+
+<use graphics/ALL0039/F0039TEK.jpg>
+Package pdftex.def Info: graphics/ALL0039/F0039TEK.jpg used on input line 104.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0032/F0032TEK.jpg, id=213, 192.72pt x 256.96pt>
+<graphics/ALL0032/F0032TEK.jpg, id=282, 192.72pt x 256.96pt>
 File: graphics/ALL0032/F0032TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0032/F0032TEK.jpg>
-Package pdftex.def Info: graphics/ALL0032/F0032TEK.jpg used on input line 110.
+Package pdftex.def Info: graphics/ALL0032/F0032TEK.jpg used on input line 113.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0040/F0040TEK.jpg, id=214, 192.72pt x 256.96pt>
+<graphics/ALL0040/F0040TEK.jpg, id=283, 192.72pt x 256.96pt>
 File: graphics/ALL0040/F0040TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0040/F0040TEK.jpg>
-Package pdftex.def Info: graphics/ALL0040/F0040TEK.jpg used on input line 116.
+Package pdftex.def Info: graphics/ALL0040/F0040TEK.jpg used on input line 119.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0033/F0033TEK.jpg, id=215, 192.72pt x 256.96pt>
+<graphics/ALL0033/F0033TEK.jpg, id=284, 192.72pt x 256.96pt>
 File: graphics/ALL0033/F0033TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0033/F0033TEK.jpg>
-Package pdftex.def Info: graphics/ALL0033/F0033TEK.jpg used on input line 126.
+Package pdftex.def Info: graphics/ALL0033/F0033TEK.jpg used on input line 129.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0041/F0041TEK.jpg, id=216, 192.72pt x 256.96pt>
+<graphics/ALL0041/F0041TEK.jpg, id=285, 192.72pt x 256.96pt>
 File: graphics/ALL0041/F0041TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0041/F0041TEK.jpg>
-Package pdftex.def Info: graphics/ALL0041/F0041TEK.jpg used on input line 132.
+Package pdftex.def Info: graphics/ALL0041/F0041TEK.jpg used on input line 135.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0034/F0034TEK.jpg, id=217, 192.72pt x 256.96pt>
+<graphics/ALL0034/F0034TEK.jpg, id=286, 192.72pt x 256.96pt>
 File: graphics/ALL0034/F0034TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0034/F0034TEK.jpg>
-Package pdftex.def Info: graphics/ALL0034/F0034TEK.jpg used on input line 142.
+Package pdftex.def Info: graphics/ALL0034/F0034TEK.jpg used on input line 145.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0042/F0042TEK.jpg, id=218, 192.72pt x 256.96pt>
+<graphics/ALL0042/F0042TEK.jpg, id=287, 192.72pt x 256.96pt>
 File: graphics/ALL0042/F0042TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0042/F0042TEK.jpg>
-Package pdftex.def Info: graphics/ALL0042/F0042TEK.jpg used on input line 148.
+Package pdftex.def Info: graphics/ALL0042/F0042TEK.jpg used on input line 151.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0035/F0035TEK.jpg, id=219, 192.72pt x 256.96pt>
+<graphics/ALL0035/F0035TEK.jpg, id=288, 192.72pt x 256.96pt>
 File: graphics/ALL0035/F0035TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0035/F0035TEK.jpg>
-Package pdftex.def Info: graphics/ALL0035/F0035TEK.jpg used on input line 158.
+Package pdftex.def Info: graphics/ALL0035/F0035TEK.jpg used on input line 161.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0043/F0043TEK.jpg, id=220, 192.72pt x 256.96pt>
+<graphics/ALL0043/F0043TEK.jpg, id=289, 192.72pt x 256.96pt>
 File: graphics/ALL0043/F0043TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0043/F0043TEK.jpg>
-Package pdftex.def Info: graphics/ALL0043/F0043TEK.jpg used on input line 164.
+Package pdftex.def Info: graphics/ALL0043/F0043TEK.jpg used on input line 167.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0036/F0036TEK.jpg, id=221, 192.72pt x 256.96pt>
+<graphics/ALL0036/F0036TEK.jpg, id=290, 192.72pt x 256.96pt>
 File: graphics/ALL0036/F0036TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0036/F0036TEK.jpg>
-Package pdftex.def Info: graphics/ALL0036/F0036TEK.jpg used on input line 174.
+Package pdftex.def Info: graphics/ALL0036/F0036TEK.jpg used on input line 177.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0044/F0044TEK.jpg, id=222, 192.72pt x 256.96pt>
+<graphics/ALL0044/F0044TEK.jpg, id=291, 192.72pt x 256.96pt>
 File: graphics/ALL0044/F0044TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0044/F0044TEK.jpg>
-Package pdftex.def Info: graphics/ALL0044/F0044TEK.jpg used on input line 180.
+Package pdftex.def Info: graphics/ALL0044/F0044TEK.jpg used on input line 183.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0037/F0037TEK.jpg, id=223, 192.72pt x 256.96pt>
+<graphics/ALL0037/F0037TEK.jpg, id=292, 192.72pt x 256.96pt>
 File: graphics/ALL0037/F0037TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0037/F0037TEK.jpg>
-Package pdftex.def Info: graphics/ALL0037/F0037TEK.jpg used on input line 190.
+Package pdftex.def Info: graphics/ALL0037/F0037TEK.jpg used on input line 193.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0045/F0045TEK.jpg, id=224, 192.72pt x 256.96pt>
+<graphics/ALL0045/F0045TEK.jpg, id=293, 192.72pt x 256.96pt>
 File: graphics/ALL0045/F0045TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0045/F0045TEK.jpg>
-Package pdftex.def Info: graphics/ALL0045/F0045TEK.jpg used on input line 196.
+Package pdftex.def Info: graphics/ALL0045/F0045TEK.jpg used on input line 199.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0038/F0038TEK.jpg, id=225, 192.72pt x 256.96pt>
+<graphics/ALL0038/F0038TEK.jpg, id=294, 192.72pt x 256.96pt>
 File: graphics/ALL0038/F0038TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0038/F0038TEK.jpg>
-Package pdftex.def Info: graphics/ALL0038/F0038TEK.jpg used on input line 206.
+Package pdftex.def Info: graphics/ALL0038/F0038TEK.jpg used on input line 209.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
 
-<graphics/ALL0046/F0046TEK.jpg, id=226, 192.72pt x 256.96pt>
+<graphics/ALL0046/F0046TEK.jpg, id=295, 192.72pt x 256.96pt>
 File: graphics/ALL0046/F0046TEK.jpg Graphic file (type jpg)
 
 <use graphics/ALL0046/F0046TEK.jpg>
-Package pdftex.def Info: graphics/ALL0046/F0046TEK.jpg used on input line 212.
+Package pdftex.def Info: graphics/ALL0046/F0046TEK.jpg used on input line 215.
 (pdftex.def)             Requested size: 192.71951pt x 256.95937pt.
- [7<./graphics/ALL0039/F0039TEK.jpg><./plot3low.pdf>] [8<./graphics/ALL0032/F003
-2TEK.jpg><./graphics/ALL0040/F0040TEK.jpg><./graphics/ALL0033/F0033TEK.jpg><./gr
-aphics/ALL0041/F0041TEK.jpg><./graphics/ALL0034/F0034TEK.jpg><./graphics/ALL0042
-/F0042TEK.jpg>] [9<./graphics/ALL0035/F0035TEK.jpg><./graphics/ALL0043/F0043TEK.
-jpg><./graphics/ALL0036/F0036TEK.jpg><./graphics/ALL0044/F0044TEK.jpg><./graphic
-s/ALL0037/F0037TEK.jpg><./graphics/ALL0045/F0045TEK.jpg><./graphics/ALL0038/F003
-8TEK.jpg><./graphics/ALL0046/F0046TEK.jpg>]
-<plot4.pdf, id=293, 578.16pt x 433.62pt>
+ [8<./graphics/ALL0032/F0032TEK.jpg><./graphics/ALL0040/F0040TEK.jpg><./graphics
+/ALL0033/F0033TEK.jpg><./graphics/ALL0041/F0041TEK.jpg><./graphics/ALL0034/F0034
+TEK.jpg><./graphics/ALL0042/F0042TEK.jpg>]
+[9<./graphics/ALL0035/F0035TEK.jpg><./graphics/ALL0043/F0043TEK.jpg><./graphics/
+ALL0036/F0036TEK.jpg><./graphics/ALL0044/F0044TEK.jpg><./graphics/ALL0037/F0037T
+EK.jpg><./graphics/ALL0045/F0045TEK.jpg><./graphics/ALL0038/F0038TEK.jpg><./grap
+hics/ALL0046/F0046TEK.jpg>] <plot4.pdf, id=312, 578.16pt x 433.62pt>
 File: plot4.pdf Graphic file (type pdf)
- <use plot4.pdf>
-Package pdftex.def Info: plot4.pdf used on input line 240.
-(pdftex.def)             Requested size: 250.95587pt x 188.21295pt.
-)
-(./content/diskussion.tex) [10<./plot4.pdf>](load luc: C:/texlive/2015/texmf-var
-/luatex-cache/generic/fonts/otf/lmromancaps10-regular.luc)
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 26.
 
-(c:/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmtt.fd
+<use plot4.pdf>
+Package pdftex.def Info: plot4.pdf used on input line 245.
+(pdftex.def)             Requested size: 334.6008pt x 209.1277pt.
+) [10<./plot4.pdf>] (./content/diskussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+
+ []
+
+
+LaTeX Warning: Reference `figplot2low' on page 11 undefined on input line 15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--23
+
+ []
+
+) [11](load luc: C:/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroma
+ncaps10-regular.luc)
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 27.
+ (c:/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: C:/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmmono10-re
 gular.luc)
@@ -2538,21 +2560,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-Package biblatex Warning: No driver for entry type 'software'.
-(biblatex)                Using fallback driver on input line 26.
-
-
-Package biblatex Warning: No driver for entry type 'software'.
-(biblatex)                Using fallback driver on input line 26.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./build/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `main.aux' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 Package rerunfilecheck Info: File `main.toc' has not changed.
@@ -2561,28 +2574,22 @@ Package rerunfilecheck Info: File `main.toc' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44102 strings out of 494897
+ 44111 strings out of 494897
  100000,1648299 words of node,token memory allocated
- 547 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 3 kern, 8 attribute, 61 glue_spec, 8 attrib
-ute_list, 3 action, 1 write nodes
-   avail lists: 1:2,2:9321,3:396,4:1046,5:220,6:3038,7:104,8:18,9:449,10:403,11:
-1
- 46445 multiletter control sequences out of 65536+600000
- 115 fonts using 25146203 bytes
- 69i,9n,104p,1248b,2071s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 553 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 3 kern, 8 attribute, 62 glue_spec, 8 attrib
+ute_list, 4 action, 1 write nodes
+   avail lists: 1:2,2:7955,3:332,4:762,5:222,6:2594,7:183,8:18,9:402,10:343,11:1
+ 46455 multiletter control sequences out of 65536+600000
+ 115 fonts using 25146375 bytes
+ 69i,8n,104p,1248b,2071s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2015/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
 live/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2
@@ -2593,10 +2600,10 @@ dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2015/texmf-dist/
 fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2015/texmf-dist/fonts
 /opentype/public/lm/lmsans10-bold.otf><c:/texlive/2015/texmf-dist/fonts/opentype
 /public/lm/lmroman12-bold.otf>
-Output written on main.pdf (11 pages, 1533182 bytes).
+Output written on main.pdf (12 pages, 1558620 bytes).
 
-PDF statistics: 480 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 50 named destinations out of 1000 (max. 131072)
+PDF statistics: 506 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
+ 49 named destinations out of 1000 (max. 131072)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

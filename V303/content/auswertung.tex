@@ -3,228 +3,233 @@
 
 \subsection{Auswertung: Funktionsgenerator}
 Die Messung ergibt eine gleichbleibende Spannungsamplitude von 4,48V für den
-rechten Ausgang (betitelt mit Phase Shifter)
-Am linken Ausgang lässt sich die Spannungsamplitude bis zu der Amplitude des
+rechten Ausgang.
+Am linken Ausgang lässt sich die Spannungsamplitude von 0V
+bis zu der Amplitude des
 anderen Ausgangs regeln, also maximal 4,48V.
 
-\subsection{Auswerung: Mischen der Signale}
+\subsection{Auswertung: Mischen der Signale}
 
 Die Signalspannung wird im folgenden mit einer Amplitude von 1V und einer
 Frequenz von 1kHz betrieben. Als Amplitude wird die Spannung zwischen
-oberer und unterer Halbwelle bezeichnet; als Phasenverschiebung der Wert, am
+oberer und unterer Halbwelle bezeichnet; als Phasenverschiebung der Wert, der am
 Gerät eingestellt wird. Die interne Phasenverschiebung wird zunächst
 vernachlässigt. Als Beispiel dient ein Messwert, der bei $\phi = 0°$
-aufgezeichnet wurde, die Amplitude der UAusgangsspannung beträgt 3,04V.
-\begin{figure}
+aufgezeichnet wurde, die Amplitude der Ausgangsspannung beträgt 3,04V.
+\begin{figure}[H]
   \centering
-  \includegraphics[angle=90,keepaspectratio, width=0.6\textwidth]{graphics/ALL0031/F0031TEK.jpg}
-  \caption{$U_{out}$ nach Mischen}
+  \includegraphics[angle=90,height=0.3\textwidth,width=0.6\textwidth]
+  {graphics/ALL0031/F0031TEK.jpg}
+  \caption{$U_{out}$ für $\phi$=0}
   \label{fig:2/phi0}
 \end{figure}
 
-\begin{figure}
-  \centering
-  \includegraphics[keepaspectratio, width=0.6\textwidth]{plot2u.pdf}
-  \caption{$U_{out}$ nach Mischen}
-  \label{fig:plot2u}
-\end{figure}
-
-In \ref{fig:plot2u} ist die gemischte Ausgangsspannung $U_{out}$ gegen die
+In Abb.\ref{fig:plot2u} ist die gemischte Ausgangsspannung $U_{out}$ gegen die
 Phasenverschiebung $\phi$ aufgetragen. Gut zu erkennen ist die Abhängigkeit
 der Ausgangsspannung von der Phasenverschiebung. Die Maxima von $U_{out}$
 liegen hierbei bei etwa 90° bzw. 270°.
-
-\begin{figure}
+\begin{figure}[H]
   \centering
-  \includegraphics[keepaspectratio, width=0.6\textwidth]{plot2low.pdf}
-  \caption{Integral der gemischten Ausgangsspannung}
-  \label{fig:plot2low}
+  \includegraphics[width=0.6\textwidth, height=0.3\textwidth]{plot2u.pdf}
+  \caption{$U_{out}$ nach Mischen ohne Rauschen}
+  \label{fig:plot2u}
 \end{figure}
-
-In \ref{fig:plot2low} ist das am Tiefpaß integrierte Signal gegen die
+\newpage
+In Abb.\ref{fig:plot2low} ist das am Tiefpaß integrierte Signal gegen die
 Phasenverschiebung $\phi$ aufgetragen. Maximale Werte ergeben sich um $\phi = 0°$
 herum, das Minimum liegt bei ca. $\phi = 180°$. Das deckt sich mit der Formel
 \eqref{eqn:Uout}, in der $\phi$ in einem Cosinus auftaucht.
-
-\subsection{Auswertung:Rauschgenerator}
-Nach Zuschalten des Rauschgenerators ergeben sich folgende Messwerte für
-$U_{out}$ in Abhängigkeit von $\phi$:
-\begin{figure}
+\begin{figure}[H]
   \centering
-  \includegraphics[keepaspectratio, width=0.6\textwidth]{plot3u.pdf}
-  \caption{$U_{out}$ mit Rauschen}
-  \label{fig:plot3u}
+  \includegraphics[height=0.3\textwidth,width=0.6\textwidth]{plot2low.pdf}
+  \caption{Integral der gemischten Ausgangsspannung ohne Rauschen}
+  \label{fig:plot2low}
 \end{figure}
 
-Wie unschwer in \ref{fig:plot3u} zu erkennnen ist, ergeben sich sehr ähnliche
-Messwerte nach Filterung und Mischen. Im folgender Abbildung ist die
-Spannung für $\phi=0°$ dargestellt, analog zu \ref{fig:2/phi0}.
 
-\begin{figure}
+\subsection{Auswertung: Rauschgenerator}
+
+Wie unschwer in Abb.\ref{fig:3/phi0} zu erkennnen ist, ergeben sich mit Rauschen
+sehr ähnliche
+Messwerte nach Filterung und Mischen. Im folgender Abbildung ist die
+Spannung für $\phi=0°$ dargestellt, analog zu Abb.\ref{fig:2/phi0}.
+
+\begin{figure}[H]
   \centering
-  \includegraphics[keepaspectratio, angle=90,width=0.6\textwidth]{graphics/ALL0039/F0039TEK.jpg}
-  \caption{$U_{out}$ nach Mischen}
+  \includegraphics[angle=90,width=0.6\textwidth, height=0.3\textwidth]{graphics/ALL0039/F0039TEK.jpg}
+  \caption{$U_{out}$ für $\phi$=0 mit Rauschen}
   \label{fig:3/phi0}
 \end{figure}
 
-Gut sichtbar ist das nicht vollständig rausgefilterte Rauschen, die Form der
-Spannung ähnelt aber stark der aus \ref{fig:2/phi0}.
+Gut sichtbar ist das nicht vollständig rausgefilterte Rauschen in Abb.
+\ref{fig:3/phi0}, die Form der
+Spannungskurve ähnelt aber stark der aus Abb.\ref{fig:2/phi0}.
 
-Die Messwerte an dem Tiefpaß sehen wie folgt aus:
+Für $U_{out}$ ergeben sich folgende Messwerte in Abhängigkeit von $\phi$:
 
-\begin{figure}
+\begin{figure}[H]
   \centering
-  \includegraphics[keepaspectratio,width=0.6\textwidth]{plot3low.pdf}
+  \includegraphics[width=0.6\textwidth, height=0.3\textwidth]{plot3u.pdf}
+  \caption{$U_{out}$ nach Mischen mit Rauschen}
+  \label{fig:plot3u}
+\end{figure}
+
+Die Messwerte an dem Tiefpaß (Abb.\ref{fig:plot3low}) unterscheiden sich
+überhaupt nicht von denen ohne zugeschalteten
+Rauschgenerator (Abb.\ref{fig:plot2low}).
+Der Grund dafür ist, dass der Tiefpaß die Spannung über mehrere
+Periodendauern integriert. Daher wird das verbliebene Rauschen einfach
+herausgemittelt.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth, height=0.3\textwidth]{plot3low.pdf}
   \caption{Integral der gemischten Ausgangsspannung mit Rauschen}
   \label{fig:plot3low}
 \end{figure}
-
-und unterscheiden sich damit überhaupt nicht von denen ohne zugeschalteten
-Rauschgenerator. Der Grund dafür ist, dass der Tiefpaß die Spannung über mehrere
-Periodendauern integriert. Daher wird das verbliebene rauschen einfach
-herausgemittelt.
-
-Im folgenden sind alle Meßwerte (mit und ohne Rauschen) dargestellt:
-\begin{figure}
-  \caption{$U_{out} ( \phi = 0°$) }
+Auf den folgenden zwei Seiten sind alle Meßwerte (mit und ohne Rauschen)
+dargestellt:
+\newpage
+\captionsetup{labelformat=empty}
+\begin{figure}[H]
+  \caption*{$U_{out} ( \phi = 0°$) }
   \centering
-
   \begin{subfigure}{0.48\textwidth}
       \centering
-      \caption{ohne Rauschen:}
+      \caption*{ohne Rauschen:}
       \includegraphics[angle=90,height=2.6cm]{graphics/ALL0031/F0031TEK.jpg}
   \end{subfigure}
   \begin{subfigure}{0.48\textwidth}
       \centering
-      \caption{mit Rauschen:}
+      \caption*{mit Rauschen:}
       \includegraphics[angle=90,height=2.6cm]{graphics/ALL0039/F0039TEK.jpg}
   \end{subfigure}
-
 \end{figure}
-
+\addtocounter{figure}{-1}
 \begin{figure}
 \caption{$U_{out} (\phi = 135°$)}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen:}
+\caption*{ohne Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0032/F0032TEK.jpg}
 \label{fig:phi135o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen:}
+\caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0040/F0040TEK.jpg}
 \label{fig:phi135m}
 \end{subfigure}
 \end{figure}
-
+\addtocounter{figure}{-1}
 \begin{figure}
 \caption{$U_{out} (\phi = 90°$) }
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen:}
+\caption*{ohne Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0033/F0033TEK.jpg}
 \label{fig:phi90o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen:}
+\caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0041/F0041TEK.jpg}
 \label{fig:phi90m}
 \end{subfigure}
 \end{figure}
-
+\addtocounter{figure}{-1}
 \begin{figure}
 \caption{$U_{out} (\phi = 180°$) }
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen:}
+\caption*{ohne Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0034/F0034TEK.jpg}
 \label{fig:phi180o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen:}
+\caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0042/F0042TEK.jpg}
 \label{fig:phi180m}
 \end{subfigure}
 \end{figure}
-
+\addtocounter{figure}{-1}
 \begin{figure}
 \caption{$U_{out} (\phi = 270°$)}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen:}
+\caption*{ohne Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0035/F0035TEK.jpg}
 \label{fig:phi270o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen:}
+\caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0043/F0043TEK.jpg}
 \label{fig:phi270m}
 \end{subfigure}
 \end{figure}
-
+\addtocounter{figure}{-1}
 \begin{figure}
 \caption{$U_{out} (\phi = 210°$)}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen:}
+\caption*{ohne Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0036/F0036TEK.jpg}
 \label{fig:phi210o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen:}
+\caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0044/F0044TEK.jpg}
 \label{fig:phi210m}
 \end{subfigure}
 \end{figure}
-
+\addtocounter{figure}{-1}
 \begin{figure}
 \caption{$U_{out} (\phi = 45°$) }
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen:}
+\caption*{ohne Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0037/F0037TEK.jpg}
 \label{fig:phi45o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen:}
+\caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0045/F0045TEK.jpg}
 \label{fig:phi45m}
 \end{subfigure}
 \end{figure}
-
+\addtocounter{figure}{-1}
 \begin{figure}
 \caption{$U_{out} (\phi = 340°$) }
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{ohne Rauschen:}
+\caption*{ohne Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0038/F0038TEK.jpg}
 \label{fig:phi340o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
-\caption{mit Rauschen:}
+\caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0046/F0046TEK.jpg}
 \label{fig:phi340m}
 \end{subfigure}
-
 \label{fig:U_out}
 \end{figure}
-
+\addtocounter{figure}{-1}
 
 \newpage
+
+\captionsetup{labelformat=default}
 
 \subsection{Auswertung: LED und Photodiode}
 
 
 
 In \ref{fig:plot4} ist das am Tiefpaß integrierte Signal in Abhängigkeit von
-dem Abstand $r$ zwischen LED und Photodiode dargestellt. Das erwartete Ergebnis
+dem Abstand $r$ zwischen LED und Photodiode dargestellt, wobei das Umgebungslicht
+die Messung als Rauschen verfälscht. Das erwartete Ergebnis
 ist, dass die Spannung mit steigendem Abstand abnimmt. Interessanterweise
 sind die 1,86m der Versuchsapparatur allerding nicht genug um die Intensität
 des Lichts der LED soweit abzuschwächen, dass die Photodiode kein Signal
@@ -237,7 +242,7 @@ bei $r$=1,86m noch licht der LED empfängt, dass mit dem Lock-In-Verstärker
 ausgewertet werden kann.
 \begin{figure}
   \centering
-  \includegraphics[keepaspectratio, width=0.6\textwidth]{plot4.pdf}
+  \includegraphics[width=0.8\textwidth, height=0.5\textwidth]{plot4.pdf}
   \caption{Integriertes Signal}
   \label{fig:plot4}
 \end{figure}

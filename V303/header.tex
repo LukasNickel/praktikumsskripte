@@ -4,6 +4,8 @@
   titlepage=firstiscover, % Titelseite ist Deckblatt
 ]{scrartcl}
 
+\parindent0pt
+
 % Paket float verbessern
 \usepackage{scrhack}
 
@@ -67,7 +69,7 @@
 \usepackage{float}
 \floatplacement{figure}{htbp}
 \floatplacement{table}{htbp}
-
+\restylefloat{figure}
 % Floats innerhalb einer Section halten
 \usepackage[
   section, % Floats innerhalb der Section halten

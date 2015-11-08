@@ -9,10 +9,10 @@
 \contentsline {subsection}{\numberline {2.2}Mischen der Signale}{4}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Rauschgenerator}{4}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}LED und Photodiode}{4}{subsection.2.4}
-\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Auswertung: Funktionsgenerator}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Auswerung: Mischen der Signale}{5}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Auswertung:Rauschgenerator}{6}{subsection.3.3}
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Auswertung: Funktionsgenerator}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Auswertung: Mischen der Signale}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Auswertung: Rauschgenerator}{6}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Auswertung: LED und Photodiode}{10}{subsection.3.4}
-\contentsline {section}{\numberline {4}Diskussion}{10}{section.4}
-\contentsline {section}{\nonumberline Literatur}{11}{section*.17}
+\contentsline {section}{\numberline {4}Diskussion}{11}{section.4}
+\contentsline {section}{\nonumberline Literatur}{12}{section*.2}

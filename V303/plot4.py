@@ -5,7 +5,7 @@ r, low, gain = np.genfromtxt('data\data4.txt', unpack = True)
 x=np.linspace(6,186, num=100)
 y=x*x
 
-plt.plot(r, low/gain, 'rx', label=r'$Messwerte$')
+plt.plot(r, low/gain, 'ko', label=r'$Messwerte$')
 plt.plot(x, 8.1/y,'b--', label=r'~$1/r^2$')
 plt.ylabel(r'$Lowpass\ /\ \mathrm{V}$')
 plt.xlabel(r'$r \ /\ \mathrm{cm}$')

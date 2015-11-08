@@ -11,11 +11,11 @@ anderen Ausgangs regeln, also maximal 4,48V.
 \subsection{Auswertung: Mischen der Signale}
 
 Die Signalspannung wird im folgenden mit einer Amplitude von 1V und einer
-Frequenz von 1kHz betrieben. Als Amplitude wird die Spannung zwischen
+Frequenz von 1kHz betrieben. Als Amplitude wird hierbei die Spannung zwischen
 oberer und unterer Halbwelle bezeichnet; als Phasenverschiebung der Wert, der am
 Gerät eingestellt wird. Die interne Phasenverschiebung wird zunächst
 vernachlässigt. Als Beispiel dient ein Messwert, der bei $\phi = 0°$
-aufgezeichnet wurde, die Amplitude der Ausgangsspannung beträgt 3,04V.
+aufgezeichnet wurde, die Amplitude der Ausgangsspannung beträgt 3,04V:
 \begin{figure}[H]
   \centering
   \includegraphics[angle=90,height=0.3\textwidth,width=0.6\textwidth]
@@ -27,10 +27,10 @@ aufgezeichnet wurde, die Amplitude der Ausgangsspannung beträgt 3,04V.
 In Abb.\ref{fig:plot2u} ist die gemischte Ausgangsspannung $U_{out}$ gegen die
 Phasenverschiebung $\phi$ aufgetragen. Gut zu erkennen ist die Abhängigkeit
 der Ausgangsspannung von der Phasenverschiebung. Die Maxima von $U_{out}$
-liegen hierbei bei etwa 90° bzw. 270°.
+liegen hierbei bei etwa 90° bzw. 270°:
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth, height=0.3\textwidth]{plot2u.pdf}
+  \includegraphics[width=0.65\textwidth, height=0.35\textwidth]{plot2u.pdf}
   \caption{$U_{out}$ nach Mischen ohne Rauschen}
   \label{fig:plot2u}
 \end{figure}
@@ -41,7 +41,7 @@ herum, das Minimum liegt bei ca. $\phi = 180°$. Das deckt sich mit der Formel
 \eqref{eqn:Uout}, in der $\phi$ in einem Cosinus auftaucht.
 \begin{figure}[H]
   \centering
-  \includegraphics[height=0.3\textwidth,width=0.6\textwidth]{plot2low.pdf}
+  \includegraphics[height=0.35\textwidth,width=0.65\textwidth]{plot2low.pdf}
   \caption{Integral der gemischten Ausgangsspannung ohne Rauschen}
   \label{fig:plot2low}
 \end{figure}
@@ -65,11 +65,12 @@ Gut sichtbar ist das nicht vollständig rausgefilterte Rauschen in Abb.
 \ref{fig:3/phi0}, die Form der
 Spannungskurve ähnelt aber stark der aus Abb.\ref{fig:2/phi0}.
 
+\newpage
 Für $U_{out}$ ergeben sich folgende Messwerte in Abhängigkeit von $\phi$:
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth, height=0.3\textwidth]{plot3u.pdf}
+  \includegraphics[width=0.65\textwidth, height=0.35\textwidth]{plot3u.pdf}
   \caption{$U_{out}$ nach Mischen mit Rauschen}
   \label{fig:plot3u}
 \end{figure}
@@ -82,12 +83,12 @@ Periodendauern integriert. Daher wird das verbliebene Rauschen einfach
 herausgemittelt.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth, height=0.3\textwidth]{plot3low.pdf}
+  \includegraphics[width=0.65\textwidth, height=0.35\textwidth]{plot3low.pdf}
   \caption{Integral der gemischten Ausgangsspannung mit Rauschen}
   \label{fig:plot3low}
 \end{figure}
-Auf den folgenden zwei Seiten sind alle Meßwerte (mit und ohne Rauschen)
-dargestellt:
+Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
+(mit und ohne Rauschen; vor der Integration am Tiefpaß) dargestellt:
 \newpage
 \captionsetup{labelformat=empty}
 \begin{figure}[H]

@@ -5,7 +5,7 @@ phi, u, low, gain = np.genfromtxt('data\data3.txt', unpack=True)
 x=np.linspace(0,360, num=360)
 
 plt.plot(phi, u, 'ko', label=r'$Messwerte$')
-plt.ylabel(r'$U \ / \ \mathrm{V}$')
+plt.ylabel(r'$U_[out] \ / \ \mathrm{V}$')
 plt.xlabel(r'$\phi \ / \ \mathrm{deg}$')
 plt.legend(loc='best')
 plt.tight_layout()

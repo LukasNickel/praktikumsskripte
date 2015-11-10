@@ -1,6 +1,82 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
+\subsection{Messwerte:}
+Im nachfolgenden sind alle Messwerte tabellarisch dargestellt:
+\begin{table}
+\centering
+\caption{Mischen der Signale:}
+\label{tab:data2}
+\sisetup{table-format=1.2}
+\begin{tabular}{S[table-format=3.0] S S S S[table-format=3.2]}
+\toprule
+{$\phi [deg]$} & {$U_{out}[V]$} & {$Tiefpass [V] - gainbereinigt$}\\
+\midrule
+0 & 3.04 & 1.5 \\
+45 & 4.60 & 0.9 \\
+90 & 4.92 & -0.3 \\
+135 & 3.92 & -1.25 \\
+180 & 3.04 & -1.5 \\
+210 & 4.04 & -1.25 \\
+270 & 4.92 & 0.3 \\
+340 & 2.52 & 1.5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\caption{Rauschgenerator:}
+\label{tab:data3}
+\sisetup{table-format=1.2}
+\begin{tabular}{S[table-format=3.0] S S S S[table-format=3.2]}
+\toprule
+{$\phi [deg]$} & {$U_{out}[V]$} & {$Tiefpass [V ]- gainbereinigt$}\\
+\midrule
+0 & 3.20 & 1.5 \\
+45 & 4.84 & 0.9 \\
+90 & 5.20 & -0.3 \\
+135 & 4.21 & -1.25 \\
+180 & 3.32 & -1.5 \\
+210 & 4.28 & -1.25 \\
+270 & 5.16 & 0.3 \\
+340 & 2.92 & 1.5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\caption{LED und Photodiode:}
+\label{tab:data4}
+\sisetup{table-format=1.2}
+\begin{tabular}{S[table-format=3.0] S S S S[table-format=3.2]}
+\toprule
+{$r [cm]$} & {$Tiefpass [V]$} & {$Gain (Tiefpass)$}\\
+\midrule
+6 & 3.6 & 20 \\
+16 & 2.1 & 50 \\
+26 & 3.1 & 200 \\
+36 & 3.9 & 500 \\
+46 & 4.5 & 1000 \\
+56 & 3.1 & 1000 \\
+66 & 2.3 & 1000 \\
+76 & 1.9 & 1000 \\
+86 & 1.5 & 1000 \\
+96 & 1.1 & 1000 \\
+106 & 1.0 & 1000 \\
+116 & 0,9 & 1000 \\
+126 & 0,9 & 1000 \\
+146 & 0,6 & 1000 \\
+166 & 0,5 & 1000 \\
+186 & 0,5 & 1000  \\
+\bottomrule
+\end{tabular}
+\end{table}
+\newpage
+
+\newpage
+
 \subsection{Auswertung: Funktionsgenerator}
 Die Messung ergibt eine gleichbleibende Spannungsamplitude von 4,48V für den
 rechten Ausgang.
@@ -90,6 +166,7 @@ herausgemittelt.
 Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 (mit und ohne Rauschen; vor der Integration am Tiefpaß) dargestellt:
 \newpage
+\hspace{-3cm}
 \captionsetup{labelformat=empty}
 \begin{figure}[H]
   \caption*{$U_{out} ( \phi = 0°$) }
@@ -107,18 +184,18 @@ Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 \end{figure}
 \addtocounter{figure}{-1}
 \begin{figure}
-\caption{$U_{out} (\phi = 135°$)}
+\caption{$U_{out} (\phi = 45°$) }
 \begin{subfigure}{0.48\textwidth}
 \centering
 \caption*{ohne Rauschen:}
-\includegraphics[angle=90,height=2.6cm]{graphics/ALL0032/F0032TEK.jpg}
-\label{fig:phi135o}
+\includegraphics[angle=90,height=2.6cm]{graphics/ALL0037/F0037TEK.jpg}
+\label{fig:phi45o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
 \caption*{mit Rauschen:}
-\includegraphics[angle=90,height=2.6cm]{graphics/ALL0040/F0040TEK.jpg}
-\label{fig:phi135m}
+\includegraphics[angle=90,height=2.6cm]{graphics/ALL0045/F0045TEK.jpg}
+\label{fig:phi45m}
 \end{subfigure}
 \end{figure}
 \addtocounter{figure}{-1}
@@ -139,6 +216,22 @@ Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 \end{figure}
 \addtocounter{figure}{-1}
 \begin{figure}
+\caption{$U_{out} (\phi = 135°$)}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\caption*{ohne Rauschen:}
+\includegraphics[angle=90,height=2.6cm]{graphics/ALL0032/F0032TEK.jpg}
+\label{fig:phi135o}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\centering
+\caption*{mit Rauschen:}
+\includegraphics[angle=90,height=2.6cm]{graphics/ALL0040/F0040TEK.jpg}
+\label{fig:phi135m}
+\end{subfigure}
+\end{figure}
+\addtocounter{figure}{-1}
+\begin{figure}
 \caption{$U_{out} (\phi = 180°$) }
 \begin{subfigure}{0.48\textwidth}
 \centering
@@ -151,22 +244,6 @@ Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 \caption*{mit Rauschen:}
 \includegraphics[angle=90,height=2.6cm]{graphics/ALL0042/F0042TEK.jpg}
 \label{fig:phi180m}
-\end{subfigure}
-\end{figure}
-\addtocounter{figure}{-1}
-\begin{figure}
-\caption{$U_{out} (\phi = 270°$)}
-\begin{subfigure}{0.48\textwidth}
-\centering
-\caption*{ohne Rauschen:}
-\includegraphics[angle=90,height=2.6cm]{graphics/ALL0035/F0035TEK.jpg}
-\label{fig:phi270o}
-\end{subfigure}
-\begin{subfigure}{0.48\textwidth}
-\centering
-\caption*{mit Rauschen:}
-\includegraphics[angle=90,height=2.6cm]{graphics/ALL0043/F0043TEK.jpg}
-\label{fig:phi270m}
 \end{subfigure}
 \end{figure}
 \addtocounter{figure}{-1}
@@ -187,18 +264,18 @@ Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 \end{figure}
 \addtocounter{figure}{-1}
 \begin{figure}
-\caption{$U_{out} (\phi = 45°$) }
+\caption{$U_{out} (\phi = 270°$)}
 \begin{subfigure}{0.48\textwidth}
 \centering
 \caption*{ohne Rauschen:}
-\includegraphics[angle=90,height=2.6cm]{graphics/ALL0037/F0037TEK.jpg}
-\label{fig:phi45o}
+\includegraphics[angle=90,height=2.6cm]{graphics/ALL0035/F0035TEK.jpg}
+\label{fig:phi270o}
 \end{subfigure}
 \begin{subfigure}{0.48\textwidth}
 \centering
 \caption*{mit Rauschen:}
-\includegraphics[angle=90,height=2.6cm]{graphics/ALL0045/F0045TEK.jpg}
-\label{fig:phi45m}
+\includegraphics[angle=90,height=2.6cm]{graphics/ALL0043/F0043TEK.jpg}
+\label{fig:phi270m}
 \end{subfigure}
 \end{figure}
 \addtocounter{figure}{-1}
@@ -239,7 +316,7 @@ Wert von 0,5 (mit Gain = 1000) abzulesen. Wenn der Weg zwischen LED und
 Diode unterbrochen wird (z.B. indem eine Hand vor die LED gehalten wird),
 sodass die Diode kein Licht der LED mehr empfangen kann, ergibt sich am
 Tiefpaß ein Wert von 0,2 (mit Gain = 1000). Das zeigt, dass die Diode auch
-bei $r$=1,86m noch licht der LED empfängt, dass mit dem Lock-In-Verstärker
+bei $r$=1,86m noch Licht der LED empfängt, dass mit dem Lock-In-Verstärker
 ausgewertet werden kann.
 \begin{figure}
   \centering

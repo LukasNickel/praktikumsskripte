@@ -19,31 +19,6 @@
 
 \refsection{0}
   \sortlist{nty}{nty}
-    \entry{matplotlib}{article}{}
-      \name{author}{1}{}{%
-        {{hash=945db4bbb079217b43c830150ebb3811}{Hunter}{H\bibinitperiod}{John\bibnamedelima D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{945db4bbb079217b43c830150ebb3811}
-      \strng{fullhash}{945db4bbb079217b43c830150ebb3811}
-      \field{sortinit}{H}
-      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computing in Science \& Engineering}
-      \field{number}{3}
-      \field{title}{{Matplotlib}: A {2D} Graphics Environment}
-      \field{version}{1.4.3}
-      \field{volume}{9}
-      \field{year}{2007}
-      \field{pages}{90\bibrangedash 95}
-      \range{pages}{6}
-      \verb{url}
-      \verb http://matplotlib.org/
-      \endverb
-    \endentry
     \entry{Wikipedia}{online}{}
       \list{publisher}{1}{%
         {Wikipedia}%
@@ -55,31 +30,6 @@
       \field{year}{11.04.2015}
       \verb{url}
       \verb https://de.wikipedia.org/wiki/Lock-in-Verst%C3%A4rker
-      \endverb
-    \endentry
-    \entry{numpy}{article}{}
-      \name{author}{1}{}{%
-        {{hash=00f2976ade6b1d16d78161a1f190716c}{Oliphant}{O\bibinitperiod}{Travis\bibnamedelima E.}{T\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{00f2976ade6b1d16d78161a1f190716c}
-      \strng{fullhash}{00f2976ade6b1d16d78161a1f190716c}
-      \field{sortinit}{O}
-      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computing in Science \& Engineering}
-      \field{number}{3}
-      \field{title}{{NumPy}: {Python} for Scientific Computing}
-      \field{version}{1.9.2}
-      \field{volume}{9}
-      \field{year}{2007}
-      \field{pages}{10\bibrangedash 20}
-      \range{pages}{11}
-      \verb{url}
-      \verb http://www.numpy.org/
       \endverb
     \endentry
     \entry{Protokoll}{article}{}

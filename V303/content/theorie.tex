@@ -21,7 +21,7 @@ anpassen.
 In nachfolgendem Tiefpass wird die gemischte Spannung integriert und auf diese
 Weise von noch vorhandenem Rauschen befreit. Dabei ist zu beachten, dass der
 Tiefpass nur für gleiche Frequenzen von Signal- und Referenzsspannung
-einen Wert ungleich null liefert. Dies liegt
+einen Wert ungleich Null liefert. Dies liegt
 darin begründet, dass der Tiefpass - so wie er in einem Lock-in-Verstärker
 genutzt wird - die Kreuzkorrelation zwischen Referenz- und Signalspannung
 berechnet, der Tiefpaß integriert also $U_{sig} \times U_{ref}$.\\
@@ -32,7 +32,8 @@ beider Spannungen sind identisch, bezeichnet mit $\omega$,
 die Phasenverschiebung ist gegeben durch $\phi$.
 Der Tiefpaß integriert $U_{sig} \times U_{ref}$ über einige Perioden und
 unterdrückt dabei die Oberwellen, sodass man eine Gleichspannung erhält, die
-proporional zu der Signalspannung ist:
+proporional zu der Signalspannung
+ist \footnote{Herleitung siehe : \cite[1-3]{Anleitung}}:
 \begin{equation}
 U_{out} = 2/\pi U_0cos(\phi).
 \label{eqn:Uout}
@@ -43,5 +44,3 @@ U_{out} = 2/\pi U_0cos(\phi).
 Die Ausgangsspannung hängt also über einen Cosinus
 von der Phasenverschiebung ab und ist maximal
 für $\phi$ = 0.
-
-siehe : \cite[1-3]{Anleitung}

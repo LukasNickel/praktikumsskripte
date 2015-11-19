@@ -11,35 +11,23 @@ Messungen mit verschiedenen Signalen vorgenommen.
 Der Lock in Verstärker wird hauptsächlich dafür eingesetzt verrauschte Signale
 zu messen. Gegenüber einem gewöhnlichen Bandpass bietet ein Lock-In-Verstärker
 den Vorteil um einige Größenordnungen höhere Güten zu erzielen.
-Der Aufbau eines Lock-In-Verstärkers gestaltet sich wie folgt:
-Zunächst wird die Signalspannung durch einen Bandpaß geschickt. Dadurch
-können bereits Rauschanteile mit einer von der Signalspannung verschiedenen
-Frequenz herausgefiltert werden.
-Daraufhin wird das Signal mit einer Referenzspannung gemischt. Mit dem
-Phasenverschieber lässt sich die Phase zwischen Signal- und Referenzspannung
-anpassen.
-In nachfolgendem Tiefpass wird die gemischte Spannung integriert und auf diese
-Weise von noch vorhandenem Rauschen befreit. Dabei ist zu beachten, dass der
-Tiefpass nur für gleiche Frequenzen von Signal- und Referenzsspannung
-einen Wert ungleich Null liefert. Dies liegt
-darin begründet, dass der Tiefpass - so wie er in einem Lock-in-Verstärker
-genutzt wird - die Kreuzkorrelation zwischen Referenz- und Signalspannung
-berechnet, der Tiefpaß integriert also $U_{sig} \times U_{ref}$.\\
 
-Betrachen wir das Beipiel einer sinusförmige Signalspannung $U_s = U_0 sin(\omega
-t)$, die moduliert wird durch eine Rechteckspannung $U_{ref}$. Die Frequenzen
-beider Spannungen sind identisch, bezeichnet mit $\omega$,
-die Phasenverschiebung ist gegeben durch $\phi$.
+Eine Signalspannung $U_{sig}$ wird sinusförmig mit der Frequenz $\omega$
+moduliert. $U_{sig}$ wird daraufhin mit der Rechteckspannung $U_{ref}$
+multipliziert. Je nach Phasenverschiebung $\phi$ ist das zeitliche Mittel:
+\begin{equation}
+U_{out} = \int U_{sig} \cdot U_{ref} .
+\label{eqn:Uout2}
+\end{equation}
 Der Tiefpaß integriert $U_{sig} \times U_{ref}$ über einige Perioden und
 unterdrückt dabei die Oberwellen, sodass man eine Gleichspannung erhält, die
 proporional zu der Signalspannung
-ist \footnote{Herleitung siehe : \cite[1-3]{Anleitung}}:
+ist :
 \begin{equation}
-U_{out} = 2/\pi U_0cos(\phi).
+U_{out} = \frac{2}{\pi} U_0 \cos(\phi).
 \label{eqn:Uout}
 \end{equation}
-
-
+\footnote{Herleitung siehe : \cite[1-3]{Anleitung}}
 
 Die Ausgangsspannung hängt also über einen Cosinus
 von der Phasenverschiebung ab und ist maximal

@@ -10,16 +10,16 @@ Im nachfolgenden sind alle Messwerte tabellarisch dargestellt:
 \sisetup{table-format=1.2}
 \begin{tabular}{S[table-format=3.0] S S S S[table-format=3.2]}
 \toprule
-{$\phi [deg]$} & {$U_{out}[V]$} & {$Tiefpass [V] - gainbereinigt$}\\
+{$\phi$ [deg]}  & {$U_{out}$ [V] - gainbereinigt}\\
 \midrule
-0 & 3.04 & 1.5 \\
-45 & 4.60 & 0.9 \\
-90 & 4.92 & -0.3 \\
-135 & 3.92 & -1.25 \\
-180 & 3.04 & -1.5 \\
-210 & 4.04 & -1.25 \\
-270 & 4.92 & 0.3 \\
-340 & 2.52 & 1.5 \\
+0 & 1.5 \\
+45 & 0.9 \\
+90 & -0.3 \\
+135 & -1.25 \\
+180 & -1.5 \\
+210 & -1.25 \\
+270 & 0.3 \\
+340 & 1.5 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -31,16 +31,16 @@ Im nachfolgenden sind alle Messwerte tabellarisch dargestellt:
 \sisetup{table-format=1.2}
 \begin{tabular}{S[table-format=3.0] S S S S[table-format=3.2]}
 \toprule
-{$\phi [deg]$} & {$U_{out}[V]$} & {$Tiefpass [V ]- gainbereinigt$}\\
+{$\phi$ [deg]} & {$U_{out}$[V] - gainbereinigt}\\
 \midrule
-0 & 3.20 & 1.5 \\
-45 & 4.84 & 0.9 \\
-90 & 5.20 & -0.3 \\
-135 & 4.21 & -1.25 \\
-180 & 3.32 & -1.5 \\
-210 & 4.28 & -1.25 \\
-270 & 5.16 & 0.3 \\
-340 & 2.92 & 1.5 \\
+0 & 1.5 \\
+45 & 0.9 \\
+90 & -0.3 \\
+135 & -1.25 \\
+180 & -1.5 \\
+210 & -1.25 \\
+270 & 0.3 \\
+340 & 1.5 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -52,7 +52,7 @@ Im nachfolgenden sind alle Messwerte tabellarisch dargestellt:
 \sisetup{table-format=1.2}
 \begin{tabular}{S[table-format=3.0] S S S S[table-format=3.2]}
 \toprule
-{$r [cm]$} & {$Tiefpass [V]$} & {$Gain (Tiefpass)$}\\
+{$r$ [cm]} & {$U_{out}$ [V]} &  {Gain (Tiefpass)}\\
 \midrule
 6 & 3.6 & 20 \\
 16 & 2.1 & 50 \\
@@ -96,7 +96,7 @@ aufgezeichnet wurde, die Amplitude der Ausgangsspannung beträgt 3,04V:
   \centering
   \includegraphics[angle=90,height=0.3\textwidth,width=0.6\textwidth]
   {graphics/ALL0031/F0031TEK.jpg}
-  \caption{$U_{out}$ für $\phi$=0}
+  \caption{$U_{sig} \cdot U_{ref}$ für $\phi$=0}
   \label{fig:2/phi0}
 \end{figure}
 
@@ -104,13 +104,7 @@ In Abb.\ref{fig:plot2u} ist die gemischte Ausgangsspannung $U_{out}$ gegen die
 Phasenverschiebung $\phi$ aufgetragen. Gut zu erkennen ist die Abhängigkeit
 der Ausgangsspannung von der Phasenverschiebung. Die Maxima von $U_{out}$
 liegen hierbei bei etwa 90° bzw. 270°:
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.65\textwidth, height=0.35\textwidth]{plot2u.pdf}
-  \caption{$U_{out}$ nach Mischen ohne Rauschen}
-  \label{fig:plot2u}
-\end{figure}
-\newpage
+
 In Abb.\ref{fig:plot2low} ist das am Tiefpaß integrierte Signal gegen die
 Phasenverschiebung $\phi$ aufgetragen. Maximale Werte ergeben sich um $\phi = 0°$
 herum, das Minimum liegt bei ca. $\phi = 180°$. Das deckt sich mit der Formel
@@ -118,7 +112,7 @@ herum, das Minimum liegt bei ca. $\phi = 180°$. Das deckt sich mit der Formel
 \begin{figure}[H]
   \centering
   \includegraphics[height=0.35\textwidth,width=0.65\textwidth]{plot2low.pdf}
-  \caption{Integral der gemischten Ausgangsspannung ohne Rauschen}
+  \caption{$U_{out}$ ohne Rauschen}
   \label{fig:plot2low}
 \end{figure}
 
@@ -141,15 +135,8 @@ Gut sichtbar ist das nicht vollständig rausgefilterte Rauschen in Abb.
 \ref{fig:3/phi0}, die Form der
 Spannungskurve ähnelt aber stark der aus Abb.\ref{fig:2/phi0}.
 
-\newpage
-Für $U_{out}$ ergeben sich folgende Messwerte in Abhängigkeit von $\phi$:
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.65\textwidth, height=0.35\textwidth]{plot3u.pdf}
-  \caption{$U_{out}$ nach Mischen mit Rauschen}
-  \label{fig:plot3u}
-\end{figure}
+
 
 Die Messwerte an dem Tiefpaß (Abb.\ref{fig:plot3low}) unterscheiden sich
 überhaupt nicht von denen ohne zugeschalteten
@@ -160,12 +147,14 @@ herausgemittelt.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.65\textwidth, height=0.35\textwidth]{plot3low.pdf}
-  \caption{Integral der gemischten Ausgangsspannung mit Rauschen}
+  \caption{$U_{out}$ mit Rauschen}
   \label{fig:plot3low}
 \end{figure}
 Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 (mit und ohne Rauschen; vor der Integration am Tiefpaß) dargestellt:
+
 \newpage
+\noindent
 \hspace{-3cm}
 \captionsetup{labelformat=empty}
 \begin{figure}[H]

@@ -17,7 +17,7 @@ plt.clf()
 
 plt.plot(phi, low, 'ko', label=r'$Messwerte$')
 plt.plot(x,np.cos(x/360*2*np.pi)*3,label=r'$3cos(\phi)$')
-plt.ylabel(r'$Lowpass\ /\ \mathrm{V}$')
+plt.ylabel(r'$U_{out}\ /\ \mathrm{V}$')
 plt.xlabel(r'$\phi \ /\ \mathrm{deg}$')
 plt.legend(loc='best')
 plt.tight_layout()

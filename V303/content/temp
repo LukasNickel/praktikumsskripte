@@ -1,0 +1,33 @@
+Der Aufbau eines Lock-In-Verstärkers gestaltet sich wie folgt:
+Zunächst wird die Signalspannung durch einen Bandpaß geschickt. Dadurch
+können bereits Rauschanteile mit einer von der Signalspannung verschiedenen
+Frequenz herausgefiltert werden.
+Daraufhin wird das Signal mit einer Referenzspannung gemischt. Mit dem
+Phasenverschieber lässt sich die Phase zwischen Signal- und Referenzspannung
+anpassen.
+In nachfolgendem Tiefpass wird die gemischte Spannung integriert und auf diese
+Weise von noch vorhandenem Rauschen befreit. Dabei ist zu beachten, dass der
+Tiefpass nur für gleiche Frequenzen von Signal- und Referenzsspannung
+einen Wert ungleich Null liefert. Dies liegt
+darin begründet, dass der Tiefpass - so wie er in einem Lock-in-Verstärker
+genutzt wird - die Kreuzkorrelation zwischen Referenz- und Signalspannung
+berechnet, der Tiefpaß integriert also $U_{sig} \times U_{ref}$.\\
+
+
+Dabei wird festgestellt, dass der linke Ausgang eine regelbare
+Spannung generiert, während die Amplitude der Spannung an dem rechten
+Ausgang konstant bei 4,48V liegt.
+
+Die Messungen ergeben, dass das Integral
+der gemischten Spannung identisch ist - unabhängig von dem Rauschen.
+
+Die Frequenz der Signalspannung
+beträgt dabei 184,4 Hz, die Amplitude ist
+maximal mit 4,48V.  Da die Signalfrequenz nicht einem Vielfachen
+der Netzfrequenz entspricht, wird das durch die Raumbeleuchtung hervorgerufene
+Signal am Bandpaß
+zum großen Teil ausgefiltert. Dadurch lässt sich die Lichtintensität in
+Abhängigkeit von $r$ messen und ein maximaler Abstand für die Detektierung
+bestimmen. Mit diesem Versuchsaufbau lässt sich allerdings nur nachweisen, dass
+der maximale Abstand $r_{max}$, in dem das Licht der LED detektiert wird,
+größer als der maximale Abstand der Apparatur.

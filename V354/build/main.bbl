@@ -1,0 +1,72 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{officialmanual}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{Dortmund}{D\bibinitperiod}{TU}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Nr.354 - Gedämpfte und erzwungene Schwingungen}
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/AP/SKRIPT/V354.pdf
+      \endverb
+    \endentry
+    \entry{Wikipedia}{online}{}
+      \list{publisher}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeltitlesource}{title}
+      \field{title}{Schwingkreis}
+      \field{year}{21.11.2015}
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Schwingkreis
+      \endverb
+    \endentry
+    \entry{protokoll}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4f2a39b31736a5c1481ca8e310e3a01d}{Thorben\bibnamedelima Lünneweber}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{Marcel\bibnamedelimb C.\bibnamedelimi Strzys}{M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {TU Dortmund}%
+      }
+      \strng{namehash}{4f2a39b31736a5c1481ca8e310e3a01d}
+      \strng{fullhash}{4f2a39b31736a5c1481ca8e310e3a01d}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Nr.354 - Gedämpfte und erzwungene Schwingungen}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://physik-praktikum.jimdo.com/
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

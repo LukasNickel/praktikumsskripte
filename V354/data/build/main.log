@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  22 NOV 2015 15:52
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  22 NOV 2015 11:37
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -322,7 +322,7 @@ Lua-only attribute luaotfload@cursbase = 6
 Lua-only attribute luaotfload@curscurs = 7
 Lua-only attribute luaotfload@cursdone = 8
 Lua-only attribute luaotfload@state = 9
-luaotfload | main : fontloader loaded in 0.034 seconds
+luaotfload | main : fontloader loaded in 0.039 seconds
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.find_vf_file' at position 1 in `find_vf_file'.
@@ -2241,14 +2241,14 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout4 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
+Package biblatex Info: ... file 'main.bbl' not found.
 
-(./build/main.bbl)
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 \AtBeginShipoutBox=\box56
 Package hyperref Info: Link coloring OFF on input line 11.
- (c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -2365,7 +2365,14 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 16.
  [2
 
 ] (./content/theorie.tex
-<schwingkreis.png, id=51, 292.09125pt x 175.857pt>
+
+Package caption Warning: \label without proper \caption on input line 18.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:RLC' on page 3 undefined on input line 14.
+
+<schwingkreis.png, id=21, 292.09125pt x 175.857pt>
 File: schwingkreis.png Graphic file (type png)
  <use schwingkreis.png>
 Package pdftex.def Info: schwingkreis.png used on input line 17.
@@ -2419,7 +2426,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 42.
 
-<aperiode.png, id=57, 446.26724pt x 272.217pt>
+<aperiode.png, id=26, 446.26724pt x 272.217pt>
 File: aperiode.png Graphic file (type png)
  <use aperiode.png>
 Package pdftex.def Info: aperiode.png used on input line 59.
@@ -2478,89 +2485,577 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 64.
 
-[4<./aperiode.png>] <gedschwingung.png, id=78, 562.5015pt x 342.68025pt>
-File: gedschwingung.png Graphic file (type png)
 
-<use gedschwingung.png>
-Package pdftex.def Info: gedschwingung.png used on input line 89.
-(pdftex.def)             Requested size: 418.25555pt x 254.80296pt.
- [5<./gedschwingung.png>]) (./content/durchfuehrung.tex
-<5a.png, id=91, 638.385pt x 239.09325pt>
+LaTeX Warning: Reference `egn:omega' on page 4 undefined on input line 65.
+
+[4<./aperiode.png>]
+
+Package caption Warning: \label without proper \caption on input line 88.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:gedschw' on page 5 undefined on input line 84.
+
+<gedschwingung.png, id=56, 562.5015pt x 342.68025pt>
+File: gedschwingung.png Graphic file (type png)
+ <use gedschwingung.png>
+Package pdftex.def Info: gedschwingung.png used on input line 87.
+(pdftex.def)             Requested size: 562.50012pt x 342.67941pt.
+
+Overfull \hbox (144.24457pt too wide) in paragraph at lines 87--89
+ [][][] 
+ []
+
+[5<./gedschwingung.png>]) (./content/durchfuehrung.tex
+
+LaTeX Warning: Reference `fig:5a' on page 6 undefined on input line 12.
+
+<5a.png, id=67, 638.385pt x 239.09325pt>
 File: 5a.png Graphic file (type png)
  <use 5a.png>
-Package pdftex.def Info: 5a.png used on input line 16.
-(pdftex.def)             Requested size: 418.25555pt x 156.64917pt.
- [6])
-(./content/auswertung.tex <data/F0000TEK.jpg, id=105, 192.72pt x 144.54pt>
-File: data/F0000TEK.jpg Graphic file (type jpg)
+Package pdftex.def Info: 5a.png used on input line 17.
+(pdftex.def)             Requested size: 638.38342pt x 239.09265pt.
 
-<use data/F0000TEK.jpg>
+Overfull \hbox (220.12787pt too wide) in paragraph at lines 17--19
+ [][][] 
+ []
+
+) (./content/auswertung.tex [6
+Missing character: There is no 𝛺 (U+1D6FA) in font "file:lmroman10-regular:sc
+ript=latn;+trep;+tlig;"!
+]
+<data/F0000TEK.jpg, id=79, 192.72pt x 144.54pt>
+File: data/F0000TEK.jpg Graphic file (type jpg)
+ <use data/F0000TEK.jpg>
 Package pdftex.def Info: data/F0000TEK.jpg used on input line 7.
 (pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
- [7<./5a.png>] [8<./data/F0000TEK.jpg>](load luc: C:/texlive/2015/texmf-var/luat
-ex-cache/generic/fonts/otf/lmroman8-regular.luc)(load luc: C:/texlive/2015/texmf
--var/luatex-cache/generic/fonts/otf/lmroman6-regular.luc) <data/F0001TEK.jpg, i
-d=121, 192.72pt x 144.54pt>
+
+
+LaTeX Warning: Reference `fig:5aergebnis' on page 7 undefined on input line 10.
+
+
+Overfull \hbox (45.01907pt too wide) detected at line 24
+ 
+ []
+
+
+Overfull \hbox (14.13646pt too wide) detected at line 24
+ 
+ []
+
+
+Overfull \hbox (45.01907pt too wide) detected at line 25
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 25
+ 
+ []
+
+
+Overfull \hbox (45.16142pt too wide) detected at line 26
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 26
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 27
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 27
+ 
+ []
+
+
+Overfull \hbox (50.63643pt too wide) detected at line 28
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 28
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 29
+ 
+ []
+
+
+Overfull \hbox (14.13646pt too wide) detected at line 29
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 30
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 30
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 31
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 31
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 32
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 32
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 33
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 33
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 34
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 34
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 35
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 35
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 36
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 36
+ 
+ []
+
+
+Overfull \hbox (50.63643pt too wide) detected at line 37
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 37
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 38
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 38
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 39
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 39
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 40
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 40
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 41
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 41
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 42
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 42
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 43
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 43
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 44
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 44
+ 
+ []
+
+
+Overfull \hbox (50.49408pt too wide) detected at line 45
+ 
+ []
+
+
+Overfull \hbox (13.99411pt too wide) detected at line 45
+ 
+ []
+
+
+LaTeX Warning: Reference `tab:5a' on page 7 undefined on input line 56.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.62 ... zu diesem Zeitpunkt -1 betragen (auf 1/e=e^
+                                                  -1
+? r
+OK, entering \nonstopmode...
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \begin{equation}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.67 \end{equation}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn''t ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+\endgroup 
+l.67 \end{equation}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \end{equation}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.67 \end{equation}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+          
+l.67 \end{equation}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+[7<./5a.png><./data/F0000TEK.jpg>] [8]
+
+! LaTeX Error: Unknown float option `w'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `w' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `i'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `i' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `d'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `d' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `='.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `=' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `x'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `x' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `w'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `w' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `i'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `i' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `d'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \begin{figure}[width=textwidth]
+                                  
+Option `d' ignored and `p' used.
+
+<data/F0001TEK.jpg, id=94, 192.72pt x 144.54pt>
 File: data/F0001TEK.jpg Graphic file (type jpg)
  <use data/F0001TEK.jpg>
-Package pdftex.def Info: data/F0001TEK.jpg used on input line 75.
+Package pdftex.def Info: data/F0001TEK.jpg used on input line 72.
 (pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
 
-<data/F0002TEK.jpg, id=124, 192.72pt x 144.54pt>
-File: data/F0002TEK.jpg Graphic file (type jpg)
- <use data/F0002TEK.jpg>
-Package pdftex.def Info: data/F0002TEK.jpg used on input line 87.
-(pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 88.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 88.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 88.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 88.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
-luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
-luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
-luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
-[9<./data/F0001TEK.jpg><./data/F0002TEK.jpg>]
-<5c.pdf, id=134, 578.16pt x 433.62pt>
-File: 5c.pdf Graphic file (type pdf)
- <use 5c.pdf>
-Package pdftex.def Info: 5c.pdf used on input line 147.
-(pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
 
-<5c2.pdf, id=137, 578.16pt x 433.62pt>
-File: 5c2.pdf Graphic file (type pdf)
- <use 5c2.pdf>
-Package pdftex.def Info: 5c2.pdf used on input line 163.
-(pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
- [10] [11<./5c.pdf>]
-[12<./5c2.pdf>] <5d.pdf, id=238, 578.16pt x 433.62pt>
-File: 5d.pdf Graphic file (type pdf)
- <use 5d.pdf>
-Package pdftex.def Info: 5d.pdf used on input line 230.
-(pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
-
-<5d2.pdf, id=239, 578.16pt x 433.62pt>
-File: 5d2.pdf Graphic file (type pdf)
- <use 5d2.pdf>
-Package pdftex.def Info: 5d2.pdf used on input line 237.
-(pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
+LaTeX Warning: Reference `fig:5bergebnis' on page 9 undefined on input line 76.
 
 
-LaTeX Warning: Reference `sec:5c' on page 13 undefined on input line 246.
+LaTeX Warning: Reference `fig:über' on page 9 undefined on input line 78.
 
-) [13] [14<./5d.pdf>] [15<./5d2.pdf>](load luc: C:/texlive/2015/texmf-var/luatex
--cache/generic/fonts/otf/lmromancaps10-regular.luc)
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 27.
 
+! LaTeX Error: Unknown float option `w'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `w' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `i'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `i' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `d'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `d' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `='.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `=' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `x'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `x' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `w'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `w' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `i'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `i' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `d'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \begin{figure}[width=textwidth]
+                                  
+Option `d' ignored and `p' used.
+
+
+LaTeX Warning: File `data/F0002TEK.jpg' not found on input line 81.
+
+
+! Package pdftex.def Error: File `data/F0002TEK.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81   \includegraphics{data/F0002TEK.jpg}
+                                        
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 81.
 (c:/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: C:/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmmono10-re
@@ -2569,17 +3064,23 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+ [9
+Missing character: There is no 𝛺 (U+1D6FA) in font "file:lmroman10-regular:sc
+ript=latn;+trep;+tlig;"!
+<./data/F0001TEK.jpg>]) (./content/diskussion.tex)
 
-(./build/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+LaTeX Warning: Empty bibliography on input line 28.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+ (./build/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: A532F24598BF9BED22F131E8C37BCBCA;9766.
+(rerunfilecheck)             Checksum: <no file>.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: ADB4BF007EF5F49324D9A956F2B1547C;1199.
+(rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Warning: There were undefined references.
@@ -2587,38 +3088,40 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44926 strings out of 494897
+ 44674 strings out of 494897
  100000,1648299 words of node,token memory allocated
- 621 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 16 kern, 20 attribute, 62 glue_spec, 20 att
+ 558 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 12 kern, 17 attribute, 60 glue_spec, 17 att
 ribute_list, 1 write nodes
-   avail lists: 1:2,2:8852,3:158,4:1312,5:265,6:2906,7:153,8:16,9:210,10:359,11:
-1
- 47239 multiletter control sequences out of 65536+600000
- 117 fonts using 25323867 bytes
- 69i,9n,104p,1248b,2073s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 2:8120,3:197,4:1348,5:232,6:2695,7:157,8:16,9:555,10:385,11:1
+ 47028 multiletter control sequences out of 65536+600000
+ 93 fonts using 19490907 bytes
+ 69i,13n,104p,1248b,868s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
-xlive/2015/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
-live/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2
-015/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2015/texm
-f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2015/texmf
--dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2015/texmf-
-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2015/texmf-d
-ist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2015/texmf-dist/f
-onts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2015/texmf-dist/fonts/
-opentype/public/lm/lmsans10-bold.otf><c:/texlive/2015/texmf-dist/fonts/opentype/
-public/lm/lmroman12-bold.otf>
-Output written on main.pdf (16 pages, 326960 bytes).
+xlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/tex
+live/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texl
+ive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
+ve/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2015/
+texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2015/texmf
+-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2015/texmf-dist
+/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2015/texmf-dist/fonts/op
+entype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (10 pages, 230418 bytes).
 
-PDF statistics: 476 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 131072)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 208 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

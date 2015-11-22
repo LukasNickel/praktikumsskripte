@@ -4,13 +4,12 @@
 \contentsline {section}{\numberline {1}Theorie}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Einleitung}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Theoretische Grundlagen}{3}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Fall 1: $\frac {1}{LC} <= \frac {R^2}{4L^2}$}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.1}Fall 1: $\frac {1}{LC}<=\frac {R^2}{4L^2}$}{4}{subsubsection.1.2.1}
 \contentsline {subsubsection}{\numberline {1.2.2}Fall 2: $\frac {1}{LC}>\frac {R^2}{4L^2}$}{4}{subsubsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}Angeregter Schwingkreis}{5}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3}Angeregter Schwingkreis}{6}{subsubsection.1.2.3}
 \contentsline {section}{\numberline {2}Durchführung}{6}{section.2}
-\contentsline {section}{\numberline {3}Auswertung und Diskussion der Messwerte}{7}{section.3}
+\contentsline {section}{\numberline {3}Auswertung}{7}{section.3}
 \contentsline {subsubsection}{\numberline {3.0.1}5a)}{7}{subsubsection.3.0.1}
 \contentsline {subsubsection}{\numberline {3.0.2}5b)}{9}{subsubsection.3.0.2}
 \contentsline {subsubsection}{\numberline {3.0.3}5c)}{10}{subsubsection.3.0.3}
-\contentsline {subsubsection}{\numberline {3.0.4}5d)}{13}{subsubsection.3.0.4}
-\contentsline {section}{\nonumberline Literatur}{16}{section*.4}
+\contentsline {section}{\numberline {4}Diskussion}{10}{section.4}

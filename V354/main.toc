@@ -13,4 +13,3 @@
 \contentsline {subsubsection}{\numberline {3.0.2}5b)}{9}{subsubsection.3.0.2}
 \contentsline {subsubsection}{\numberline {3.0.3}5c)}{10}{subsubsection.3.0.3}
 \contentsline {subsubsection}{\numberline {3.0.4}5d)}{13}{subsubsection.3.0.4}
-\contentsline {section}{\nonumberline Literatur}{16}{section*.4}

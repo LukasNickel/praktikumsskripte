@@ -100,13 +100,11 @@ aufgezeichnet wurde, die Amplitude der Ausgangsspannung beträgt 3,04V:
   \label{fig:2/phi0}
 \end{figure}
 
-In Abb.\ref{fig:plot2u} ist die gemischte Ausgangsspannung $U_{out}$ gegen die
+In Abb.\ref{fig:plot2low} ist die gemischte Ausgangsspannung $U_{out}$ gegen die
 Phasenverschiebung $\phi$ aufgetragen. Gut zu erkennen ist die Abhängigkeit
 der Ausgangsspannung von der Phasenverschiebung. Die Maxima von $U_{out}$
 liegen hierbei bei etwa 90° bzw. 270°:
-
-In Abb.\ref{fig:plot2low} ist das am Tiefpaß integrierte Signal gegen die
-Phasenverschiebung $\phi$ aufgetragen. Maximale Werte ergeben sich um $\phi = 0°$
+Maximale Werte ergeben sich um $\phi = 0°$
 herum, das Minimum liegt bei ca. $\phi = 180°$. Das deckt sich mit der Formel
 \eqref{eqn:Uout}, in der $\phi$ in einem Cosinus auftaucht.
 \begin{figure}[H]
@@ -121,7 +119,7 @@ herum, das Minimum liegt bei ca. $\phi = 180°$. Das deckt sich mit der Formel
 
 Wie unschwer in Abb.\ref{fig:3/phi0} zu erkennnen ist, ergeben sich mit Rauschen
 sehr ähnliche
-Messwerte nach Filterung und Mischen. Im folgender Abbildung ist die
+Messwerte nach Filterung und Mischen. In Abb.\ref{fig:plot3low} ist $U_0$
 Spannung für $\phi=0°$ dargestellt, analog zu Abb.\ref{fig:2/phi0}.
 
 \begin{figure}[H]
@@ -138,7 +136,7 @@ Spannungskurve ähnelt aber stark der aus Abb.\ref{fig:2/phi0}.
 
 
 
-Die Messwerte an dem Tiefpaß (Abb.\ref{fig:plot3low}) unterscheiden sich
+Die Messwerte unterscheiden sich
 überhaupt nicht von denen ohne zugeschalteten
 Rauschgenerator (Abb.\ref{fig:plot2low}).
 Der Grund dafür ist, dass der Tiefpaß die Spannung über mehrere
@@ -152,10 +150,8 @@ herausgemittelt.
 \end{figure}
 Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 (mit und ohne Rauschen; vor der Integration am Tiefpaß) dargestellt:
-
 \newpage
 \noindent
-\hspace{-3cm}
 \captionsetup{labelformat=empty}
 \begin{figure}[H]
   \caption*{$U_{out} ( \phi = 0°$) }
@@ -292,8 +288,6 @@ Auf den folgenden zwei Seiten sind alle Meßwerte für $U_{out}$
 
 \subsection{Auswertung: LED und Photodiode}
 
-
-
 In \ref{fig:plot4} ist das am Tiefpaß integrierte Signal in Abhängigkeit von
 dem Abstand $r$ zwischen LED und Photodiode dargestellt, wobei das Umgebungslicht
 die Messung als Rauschen verfälscht. Das erwartete Ergebnis
@@ -306,8 +300,9 @@ Diode unterbrochen wird (z.B. indem eine Hand vor die LED gehalten wird),
 sodass die Diode kein Licht der LED mehr empfangen kann, ergibt sich am
 Tiefpaß ein Wert von 0,2 (mit Gain = 1000). Das zeigt, dass die Diode auch
 bei $r$=1,86m noch Licht der LED empfängt, dass mit dem Lock-In-Verstärker
-ausgewertet werden kann.
-\begin{figure}
+ausgewertet werden kann. Als Fit ergibt sich eine Potenzfunktion
+$U(r) = 5.288 \cdot r^{-1.876}$.
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth, height=0.5\textwidth]{plot4.pdf}
   \caption{Integriertes Signal}

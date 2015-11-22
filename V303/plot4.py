@@ -13,15 +13,16 @@ def f(lnr, a,b):
     return a*r+b
 
 def g(x,c,d):
-    return np.exp(c)*x^d
+    return c*x**d
 
-popt, pcov = curve_fit(f, lnr, lnu)
+#popt, pcov = curve_fit(g,r, low2, p0=(5,-2))
 
-print(popt)
-print(pcov)
+#print(popt)
+#print(pcov)
 
 plt.plot(r, low2, 'ko', label=r'$Messwerte$')
-plt.plot(x, np.exp(-0.0308385)*(x**-3.4583855), 'r-', label='Fit')
+#plt.plot(x, g(x,popt[0],popt[1],popt[2]), 'r-', label='Fit')
+plt.plot(x,g(x,5.288,-1.876),label='Fit')
 
 plt.xscale('log')
 plt.yscale('log')

@@ -9,8 +9,8 @@
 \contentsline {subsection}{\numberline {2.2}Mischen der Signale}{4}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Rauschgenerator}{5}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}LED und Photodiode}{5}{subsection.2.4}
-\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Messwerte:}{5}{subsection.3.1}
+\contentsline {section}{\numberline {3}Auswertung}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Messwerte:}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Auswertung: Funktionsgenerator}{7}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Auswertung: Mischen der Signale}{7}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Auswertung: Rauschgenerator}{8}{subsection.3.4}

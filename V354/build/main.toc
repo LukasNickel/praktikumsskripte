@@ -9,8 +9,9 @@
 \contentsline {subsubsection}{\numberline {1.2.3}Angeregter Schwingkreis}{5}{subsubsection.1.2.3}
 \contentsline {section}{\numberline {2}Durchführung}{6}{section.2}
 \contentsline {section}{\numberline {3}Auswertung und Diskussion der Messwerte}{7}{section.3}
-\contentsline {subsubsection}{\numberline {3.0.1}Dämpfungswiderstand}{7}{subsubsection.3.0.1}
-\contentsline {subsubsection}{\numberline {3.0.2}Aperiodischer Grenzfall)}{9}{subsubsection.3.0.2}
-\contentsline {subsubsection}{\numberline {3.0.3}Resonanzüberhöhung)}{10}{subsubsection.3.0.3}
-\contentsline {subsubsection}{\numberline {3.0.4}Phasenverschiebung}{13}{subsubsection.3.0.4}
-\contentsline {section}{\nonumberline Literatur}{16}{section*.5}
+\contentsline {subsubsection}{\numberline {3.0.1}Information}{7}{subsubsection.3.0.1}
+\contentsline {subsubsection}{\numberline {3.0.2}Dämpfungswiderstand}{7}{subsubsection.3.0.2}
+\contentsline {subsubsection}{\numberline {3.0.3}Aperiodischer Grenzfall)}{9}{subsubsection.3.0.3}
+\contentsline {subsubsection}{\numberline {3.0.4}Resonanzüberhöhung)}{10}{subsubsection.3.0.4}
+\contentsline {subsubsection}{\numberline {3.0.5}Phasenverschiebung}{14}{subsubsection.3.0.5}
+\contentsline {section}{\nonumberline Literatur}{17}{section*.5}

@@ -34,6 +34,15 @@
       \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/AP/SKRIPT/V354.pdf
       \endverb
     \endentry
+    \entry{messwerte}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeltitlesource}{title}
+      \field{title}{Messwerte zu 5a) & 5b)}
+      \verb{url}
+      \verb https://app.box.com/s/v4zb62gwzamisyj358152k999mhzwmjq
+      \endverb
+    \endentry
     \entry{Wikipedia}{online}{}
       \list{publisher}{1}{%
         {Wikipedia}%

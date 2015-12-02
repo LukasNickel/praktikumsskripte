@@ -1,0 +1,10 @@
+# 3 Schwingungsdauern T der gekoppelten Pendel in s
+4.36
+4.16
+4.23
+4.36
+4.38
+4.23
+4.07
+4.35
+4.24

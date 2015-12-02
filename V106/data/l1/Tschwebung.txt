@@ -1,0 +1,11 @@
+# Halbe Schwebungsdauer Tschwebung der gekoppelten Pendel in s
+10.96
+11.56
+12.09
+13.49
+11.35
+9.70
+12.60
+11.89
+11.24
+12.78

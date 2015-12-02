@@ -1,4 +1,50 @@
 \section{Theorie}
 \label{sec:Theorie}
 
-\cite{sample}
+\subsection{Zielsetzung}
+Die Aufgabe des Versuchs besteht darin, die Schwingungsdauern verschiedener
+Schwingungsarten sowie die Schwebungsdauer von jeweils zwei, identischen,
+gekoppelten Pendeln zu bestimmen.
+\subsection{Theoretische Grundlagen}
+Die Bewegungs-/Schwingungsgleichung eines einzelnen Pendels lautet für kleine
+Winkelauslenkungen ($\phi < 10°, \sin(\phi) \approx \phi$):
+\begin{equation}
+  \centering
+  \dot{\phi}+ \omega^2 \phi = 0\\
+  mit\\
+  \omega^2 = \frac{g}{l}.\\
+  \label{eqn:schwgl}
+\end{equation}
+
+Dabei entspricht $l$ der Länge des Pendels, $\omega$ der Schwingungsfrequenz und
+$\phi$ dem Auslenkwinkel.
+Werden mehrere (in diesem Fall zwei) Pendel miteinander gekoppelt, z.B. über
+eine Feder, können die Schwingungen nicht mehr als voneinander unabhängig
+betrachtet werden. Stattdessen sind die DGLen gekoppelt, als
+Bewegungsformen ergeben sich zwei Eigenschwingungen:
+
+1) Die Gleichsinnige Schwingung
+
+...
+
+2) Die Gegensinnige Schwingung
+
+...
+
+Jede andere gekoppelte Schwingung lässt sich als Überlagerung dieser beiden
+Eigenschwingungen interpretieren. Relevant für den Versuch ist neben den
+Eigenschwingungen die Schwingung mit den Anfangsbedingungen
+$\phi_1 = 0$ und $\phi_2 \neq 0$.
+Dabei lässt sich das Phänomen der Schwebung betrachten: Das zu $t = 0$
+ausgelenkte Pendel überträgt seine Energie und damit die Schwingungsbewegung
+kontinuierlich und vollständig
+auf das andere Pendel, bis ersteres stillsteht und letzteres
+mit der vollen Amplitude schwingt. Dieser Vorgang wiederholt sich periodisch.
+Die Periodendauer dieses Vorgangs wird als Schwebungsdauer $T_s$ bezeichnet und
+ist durch die Schwingungsdauern der gleich- und gegenphasigen Schwingungen
+gemäß \ref{eqn:Ts} gegeben.
+\begin{equation}
+  \centering
+  T_s  = \frac{T_+ \cdot T_-}{T_+ - T_-}
+  \label{eqn:Ts}
+\end{equation}

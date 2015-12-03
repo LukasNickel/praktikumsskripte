@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  22 NOV 2015 19:28
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  3 DEC 2015 19:02
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -322,7 +322,7 @@ Lua-only attribute luaotfload@cursbase = 6
 Lua-only attribute luaotfload@curscurs = 7
 Lua-only attribute luaotfload@cursdone = 8
 Lua-only attribute luaotfload@state = 9
-luaotfload | main : fontloader loaded in 0.039 seconds
+luaotfload | main : fontloader loaded in 0.037 seconds
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.find_vf_file' at position 1 in `find_vf_file'.
@@ -2365,148 +2365,100 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 16.
  [2
 
 ] (./content/theorie.tex
-<schwingkreis.png, id=51, 292.09125pt x 175.857pt>
+<schwingkreis.png, id=53, 292.09125pt x 175.857pt>
 File: schwingkreis.png Graphic file (type png)
  <use schwingkreis.png>
 Package pdftex.def Info: schwingkreis.png used on input line 17.
 (pdftex.def)             Requested size: 292.09052pt x 175.85657pt.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\utex_stack:D' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_begin:' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_end:' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\utex_stack:D' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_begin:' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_end:' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 42.
-
-<aperiode.png, id=57, 446.26724pt x 272.217pt>
+<aperiode.png, id=61, 446.26724pt x 272.217pt>
 File: aperiode.png Graphic file (type png)
  <use aperiode.png>
-Package pdftex.def Info: aperiode.png used on input line 59.
+Package pdftex.def Info: aperiode.png used on input line 60.
 (pdftex.def)             Requested size: 446.26614pt x 272.21631pt.
 
-Overfull \hbox (28.01059pt too wide) in paragraph at lines 59--60
+Overfull \hbox (28.01059pt too wide) in paragraph at lines 60--62
  [][][] 
  []
 
 [3<./schwingkreis.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `math shift' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\utex_stack:D' on input line 64.
+(hyperref)                removing `\utex_stack:D' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_begin:' on input line 64.
+(hyperref)                removing `\group_begin:' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_end:' on input line 64.
+(hyperref)                removing `\group_end:' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 64.
+(hyperref)                removing `\@@over' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\utex_stack:D' on input line 64.
+(hyperref)                removing `\utex_stack:D' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_begin:' on input line 64.
+(hyperref)                removing `\group_begin:' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 64.
+(hyperref)                removing `superscript' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\group_end:' on input line 64.
+(hyperref)                removing `\group_end:' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 64.
+(hyperref)                removing `\@@over' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 64.
+(hyperref)                removing `superscript' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 64.
+(hyperref)                removing `math shift' on input line 66.
 
-[4<./aperiode.png>] <gedschwingung.png, id=78, 562.5015pt x 342.68025pt>
+[4<./aperiode.png>] <gedschwingung.png, id=85, 562.5015pt x 342.68025pt>
 File: gedschwingung.png Graphic file (type png)
 
 <use gedschwingung.png>
-Package pdftex.def Info: gedschwingung.png used on input line 89.
+Package pdftex.def Info: gedschwingung.png used on input line 91.
 (pdftex.def)             Requested size: 418.25555pt x 254.80296pt.
  [5<./gedschwingung.png>]) (./content/durchfuehrung.tex
-<5a.png, id=91, 638.385pt x 239.09325pt>
+<5a.png, id=100, 638.385pt x 239.09325pt>
 File: 5a.png Graphic file (type png)
  <use 5a.png>
 Package pdftex.def Info: 5a.png used on input line 16.
 (pdftex.def)             Requested size: 418.25555pt x 156.64917pt.
  [6])
-(./content/auswertung.tex <data/F0000TEK.jpg, id=106, 192.72pt x 144.54pt>
+(./content/auswertung.tex <data/F0000TEK.jpg, id=117, 192.72pt x 144.54pt>
 File: data/F0000TEK.jpg Graphic file (type jpg)
 
 <use data/F0000TEK.jpg>
 Package pdftex.def Info: data/F0000TEK.jpg used on input line 13.
-(pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
- [7<./5a.png>] [8<./data/F0000TEK.jpg>](load luc: C:/texlive/2015/texmf-var/luat
-ex-cache/generic/fonts/otf/lmroman8-regular.luc)(load luc: C:/texlive/2015/texmf
--var/luatex-cache/generic/fonts/otf/lmroman6-regular.luc) <data/F0001TEK.jpg, i
-d=123, 192.72pt x 144.54pt>
+(pdftex.def)             Requested size: 418.25555pt x 313.69263pt.
+ [7<./5a.png>] [8<./data/F0000TEK.jpg>] [9](load luc: C:/texlive/2015/texmf-var/
+luatex-cache/generic/fonts/otf/lmroman8-regular.luc)(load luc: C:/texlive/2015/t
+exmf-var/luatex-cache/generic/fonts/otf/lmroman6-regular.luc) <data/F0001TEK.jp
+g, id=138, 192.72pt x 144.54pt>
 File: data/F0001TEK.jpg Graphic file (type jpg)
  <use data/F0001TEK.jpg>
 Package pdftex.def Info: data/F0001TEK.jpg used on input line 83.
-(pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
+(pdftex.def)             Requested size: 418.25555pt x 313.69263pt.
 
-<data/F0002TEK.jpg, id=126, 192.72pt x 144.54pt>
+<data/F0002TEK.jpg, id=141, 192.72pt x 144.54pt>
 File: data/F0002TEK.jpg Graphic file (type jpg)
  <use data/F0002TEK.jpg>
 Package pdftex.def Info: data/F0002TEK.jpg used on input line 95.
@@ -2529,31 +2481,36 @@ luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
 luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
 luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
 luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
-<5c.pdf, id=127, 578.16pt x 433.62pt>
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
+luaotfload | load : Lookup/name: "XITSMath" -> "xits-math.otf"
+[10<./data/F0001TEK.jpg>] <5c.pdf, id=152, 578.16pt x 433.62pt>
 File: 5c.pdf Graphic file (type pdf)
  <use 5c.pdf>
 Package pdftex.def Info: 5c.pdf used on input line 155.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
- [9<./data/F0001TEK.jpg>]
-<5c2.pdf, id=140, 578.16pt x 433.62pt>
+
+<5c2.pdf, id=155, 578.16pt x 433.62pt>
 File: 5c2.pdf Graphic file (type pdf)
  <use 5c2.pdf>
-Package pdftex.def Info: 5c2.pdf used on input line 171.
+Package pdftex.def Info: 5c2.pdf used on input line 172.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
- [10<./data/F0002TEK.jpg>]
-[11] [12<./5c.pdf>] [13<./5c2.pdf>] <5d.pdf, id=243, 578.16pt x 433.62pt>
+ [11<./data/F0002TEK.jpg>]
+[12] [13<./5c.pdf>] [14<./5c2.pdf>] <5d.pdf, id=259, 578.16pt x 433.62pt>
 File: 5d.pdf Graphic file (type pdf)
 
 <use 5d.pdf>
-Package pdftex.def Info: 5d.pdf used on input line 238.
+Package pdftex.def Info: 5d.pdf used on input line 242.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
- <5d2.pdf, id=244, 578.16pt x 433.62pt>
+ <5d2.pdf, id=260, 578.16pt x 433.62pt>
 File: 5d2.pdf Graphic file (type pdf)
  <use 5d2.pdf>
-Package pdftex.def Info: 5d2.pdf used on input line 245.
+Package pdftex.def Info: 5d2.pdf used on input line 249.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
-) [14]
-[15<./5d.pdf>] [16<./5d2.pdf>](load luc: C:/texlive/2015/texmf-var/luatex-cache/
+) [15]
+[16<./5d.pdf>] [17<./5d2.pdf>](load luc: C:/texlive/2015/texmf-var/luatex-cache/
 generic/fonts/otf/lmromancaps10-regular.luc)
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 27.
 
@@ -2571,8 +2528,7 @@ Package microtype Info: Loading generic settings for font family
                    5b)
 l.28 
    
-? r
-OK, entering \nonstopmode...
+? 
 
 Overfull \hbox (44.12172pt too wide) in paragraph at lines 28--28
 [][]\EU2/lmr/m/it/10.95 Mess-wer-te zu 5a)  5b)\EU2/lmr/m/n/10.95 . \EU2/lmr/m/
@@ -2581,7 +2537,7 @@ sc/10.95 url\EU2/lmr/m/n/10.95 : []$\EU2/lmtt/m/n/10.95 https : / / app . box .
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
-[17]
+[18]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./build/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
@@ -2590,10 +2546,6 @@ Package rerunfilecheck Info: File `main.aux' has not changed.
 (rerunfilecheck)             Checksum: A532F24598BF9BED22F131E8C37BCBCA;9766.
 Package rerunfilecheck Info: File `main.toc' has not changed.
 (rerunfilecheck)             Checksum: ADB4BF007EF5F49324D9A956F2B1547C;1199.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
@@ -2601,16 +2553,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44933 strings out of 494897
+ 44963 strings out of 494897
  100000,1648299 words of node,token memory allocated
- 625 words of node memory still in use:
+ 627 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 16 kern, 20 attribute, 62 glue_spec, 20 att
 ribute_list, 1 write nodes
-   avail lists: 1:2,2:9734,3:162,4:1739,5:265,6:3152,7:158,8:16,9:291,10:416,11:
+   avail lists: 1:2,2:9613,3:173,4:1253,5:267,6:3109,7:158,8:18,9:278,10:415,11:
 1
- 47242 multiletter control sequences out of 65536+600000
- 117 fonts using 25324039 bytes
- 69i,9n,104p,1248b,2073s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 47261 multiletter control sequences out of 65536+600000
+ 127 fonts using 28062251 bytes
+ 69i,12n,104p,1248b,2073s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2015/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
 live/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2
@@ -2622,10 +2574,10 @@ ist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2015/texmf-dist/f
 onts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2015/texmf-dist/fonts/
 opentype/public/lm/lmsans10-bold.otf><c:/texlive/2015/texmf-dist/fonts/opentype/
 public/lm/lmroman12-bold.otf>
-Output written on main.pdf (17 pages, 329488 bytes).
+Output written on main.pdf (18 pages, 331944 bytes).
 
-PDF statistics: 488 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 131072)
+PDF statistics: 502 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

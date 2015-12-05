@@ -2235,15 +2235,16 @@
     <bcf:datasource type="file" datatype="bibtex">lit.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">protokoll</bcf:citekey>
-    <bcf:citekey order="2">protokoll</bcf:citekey>
-    <bcf:citekey order="3">protokoll</bcf:citekey>
-    <bcf:citekey order="4">protokoll</bcf:citekey>
-    <bcf:citekey order="5">protokoll</bcf:citekey>
-    <bcf:citekey order="6">protokoll</bcf:citekey>
-    <bcf:citekey order="7">protokoll</bcf:citekey>
-    <bcf:citekey order="8">protokoll</bcf:citekey>
+    <bcf:citekey order="1">officialmanual</bcf:citekey>
+    <bcf:citekey order="2">officialmanual</bcf:citekey>
+    <bcf:citekey order="3">officialmanual</bcf:citekey>
+    <bcf:citekey order="4">officialmanual</bcf:citekey>
+    <bcf:citekey order="5">officialmanual</bcf:citekey>
+    <bcf:citekey order="6">officialmanual</bcf:citekey>
+    <bcf:citekey order="7">officialmanual</bcf:citekey>
+    <bcf:citekey order="8">officialmanual</bcf:citekey>
     <bcf:citekey order="9">messwerte</bcf:citekey>
+    <bcf:citekey order="10">messwerte</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">

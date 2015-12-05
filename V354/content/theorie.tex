@@ -15,7 +15,7 @@ Vorzeichen.
 \begin{figure}
   \centering
   \includegraphics{schwingkreis.png}
-  \caption{Gedämpfter Schwingkreis. (aus \cite{protokoll})}
+  \caption{Gedämpfter Schwingkreis(Quelle: \cite{officialmanual}).}
   \label{fig:RLC}
 \end{figure}
 Eine schematische Darstellung ist in Abbildung \ref{fig:RLC} zu sehen.
@@ -40,8 +40,7 @@ Dabei ist j die imaginäre Einheit.
 Wie unschwer an Gleichung \ref{eqn:omega} zu erkennen ist müssen abhängig von
 den Parametern R, L und C nun 3 Fälle unterschieden werden.
 
-\subsubsection{Fall 1: }
-$\frac{1}{LC} \leq \frac{R^2}{4L^2}$
+\subsubsection{Fall 1: Starke Dämpfung und aperiodischer Grenzfall}
 In dem Fall $\frac{1}{LC}<\frac{R^2}{4L^2}$ ist der Ausdruck in der
 Wurzel imaginär, in Gleichung
 \ref{eqn:I} kommen also nur noch reelle Exponentialfunktionen vor. Diese
@@ -58,13 +57,15 @@ Dämpfung:
 \begin{figure}
   \centering
   \includegraphics{aperiode.png}
-  \caption{Stromverlauf in einem aperiodisch gedämpften System.
-  (aus \cite{protokoll})}
+  \caption{Stromverlauf in einem aperiodisch gedämpften System
+  (Quelle: \cite{officialmanual}).}
   \label{fig:aper}
 \end{figure}
 
-\subsubsection{Fall 2: $\frac{1}{LC}>\frac{R^2}{4L^2}$}
-Unter dieser Bedingung ist der Term unter der Wurzel in Gleichung
+\subsubsection{Fall 2: Schwache Dämpfung}
+
+Unter der Bedingung $\frac{1}{LC} > \frac{R^2}{4L^2}$
+ist der Term unter der Wurzel in Gleichung
 \ref{eqn:omega} positiv,
 die Wurzel also reell. Damit muss $I_1 = I_2$ sein und für den Strom ergibt
 sich:
@@ -89,8 +90,8 @@ Teil ihres ursprünglichen Wertes abgefallen ist.
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{gedschwingung.png}
-  \caption{Spannungsverlauf bei einer gedämpften Schwingung.
-  (aus \cite{protokoll})}
+  \caption{Spannungsverlauf bei einer gedämpften Schwingung
+  (Quelle: \cite{officialmanual}).}
   \label{fig:gedschw}
 \end{figure}
 Ein solches gedämpftes Schwingungsverhalten ist in \ref{fig:gedschw} dargestellt.

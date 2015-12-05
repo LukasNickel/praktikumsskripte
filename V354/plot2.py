@@ -1,5 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import uncertainties.unumpy as unp
+from uncertainties import ufloat
+import math
+from scipy.optimize import curve_fit
 
 
 phi, u, low, gain = np.genfromtxt('data\data2.txt', unpack=True)

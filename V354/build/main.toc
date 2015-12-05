@@ -1,17 +1,17 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {german}
-\contentsline {section}{\numberline {1}Theorie}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Einleitung}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Theoretische Grundlagen}{3}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Fall 1:}{4}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Fall 2: $\frac {1}{LC}>\frac {R^2}{4L^2}$}{4}{subsubsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}Angeregter Schwingkreis}{5}{subsubsection.1.2.3}
-\contentsline {section}{\numberline {2}Durchführung}{6}{section.2}
-\contentsline {section}{\numberline {3}Auswertung und Diskussion der Messwerte}{7}{section.3}
-\contentsline {subsubsection}{\numberline {3.0.1}Information}{7}{subsubsection.3.0.1}
-\contentsline {subsubsection}{\numberline {3.0.2}Dämpfungswiderstand}{7}{subsubsection.3.0.2}
-\contentsline {subsubsection}{\numberline {3.0.3}Aperiodischer Grenzfall)}{10}{subsubsection.3.0.3}
-\contentsline {subsubsection}{\numberline {3.0.4}Resonanzüberhöhung}{11}{subsubsection.3.0.4}
-\contentsline {subsubsection}{\numberline {3.0.5}Phasenverschiebung}{15}{subsubsection.3.0.5}
-\contentsline {section}{\nonumberline Literatur}{18}{section*.5}
+\contentsline {section}{\numberline {1}Theorie}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Einleitung}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Theoretische Grundlagen}{1}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Fall 1: Starke Dämpfung und aperiodischer Grenzfall}{2}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Fall 2: Schwache Dämpfung}{2}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Angeregter Schwingkreis}{3}{subsubsection.1.2.3}
+\contentsline {section}{\numberline {2}Durchführung}{4}{section.2}
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Zu den Messwerten}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dämpfungswiderstand}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Aperiodischer Grenzfall)}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Resonanzüberhöhung}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Phasenverschiebung}{13}{subsection.3.5}
+\contentsline {section}{\nonumberline Literatur}{17}{section*.5}

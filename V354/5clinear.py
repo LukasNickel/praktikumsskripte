@@ -11,15 +11,23 @@ a2 = a*10**-6
 f2=f*1000
 phi = a*f*360/1000
 x=np.linspace(4260,40000,num=100)
+errphi = 2
+erru = 0.05
+errf = 100
 
 print(phi)
-plt.plot(f2,Urel,'rx',label='Messwerte')
+#plt.plot(f2,Urel,'rx',label='Messwerte')
+plt.errorbar(f*1000, Urel, xerr= errf, yerr=erru,fmt='o',label=r'Messwerte')
 plt.xlabel(r'$f$ [Hz]')
 plt.ylabel(r'$U_{rel}$')
+plt.xlim(27000,41000)
+plt.ylim(0,4.1)
 plt.legend(loc='best')
 plt.savefig('5c2.pdf')
 plt.clf()
-plt.plot(f*1000,phi,'rx', label=r'Messwerte')
+
+#plt.plot(f*1000,phi,'rx', label=r'Messwerte')
+plt.errorbar(f*1000, phi, xerr= errf, yerr=errphi, fmt='o',label=r'Messwerte')
 plt.axhline(y=45,xmin=0,xmax=1,label=r'$\phi = 45$°', color='b')
 plt.axhline(y=90,xmin=0,xmax=1,label=r'$\phi = 90$°', color='k')
 plt.axhline(y=135,xmin=0,xmax=1,label=r'$\phi = 135$°', color='c')

@@ -1,0 +1,53 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{Wikipedia}{online}{}
+      \list{publisher}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Gekoppelte Pendel}
+      \field{year}{05.12.2015}
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Gekoppelte_Pendel
+      \endverb
+    \endentry
+    \entry{fhaachen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ea07810b730dc0c1d7e60c7b1b0cd624}{Samm}{S\bibinitperiod}{Prof.Dr.\bibnamedelimi Doris}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ea07810b730dc0c1d7e60c7b1b0cd624}
+      \strng{fullhash}{ea07810b730dc0c1d7e60c7b1b0cd624}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Praktikum: Physik für Elektrotechnik}
+      \verb{url}
+      \verb http://www.physik.fh-aachen.de/startseite/physik-fuer-elektrotechnik/praktikum/gekoppeltes-pendel/5/
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

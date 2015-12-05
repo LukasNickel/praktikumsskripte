@@ -1,10 +1,157 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+\subsection{$l = \SI{99.5}{\centi\meter}$}
+\subsubsection{Ungekoppelt}
 Die Pendellänge $l_1$ beträgt \SI{0.995 +- 0.005}{\meter}. Damit ergibt
-sich als Theoriewert für die Schwingungsdauer gemäß XXX
+sich als Theoriewert für die Schwingungsdauer gemäß Gleichung \ref{eqn:omega+}
 $T$ = \SI{2.001 +- 0.005}{\second}. Die Messwerte für die einzelnen Pendel
-sind in Tabelle XXX zu finden.
-
-
+sind in Tabelle \ref{tab:l1ungekoppelt} zu finden.
 Der Mittelwert für das erste Pendel beträgt \SI{1.9284 +- 0.00032}{\second}, für
 das zweite Pendel \SI{1.9538 +- 0.00032}{\second}.
+\begin{table}
+ \noindent
+ \centering
+ \caption{Schwingungsdauern der ungekoppelten
+ Pendel für $l = \SI{99.5}{\centi\meter}$}
+ \label{tab:l1ungekoppelt}
+ \sisetup{table-format=1.2}
+ \begin{tabular}{rr}
+ \toprule
+  {$T_1$ [\si{second}]} & {$T_2$[\si{second}]} \\
+ \midrule
+    \num{1.926 +- 0.001} & \num{1.966 +- 0.001} \\
+    \num{1.932 +- 0.001} & \num{1.974 +- 0.001}\\
+    \num{1.976 +- 0.001} & \num{1.944 +- 0.001}\\
+    \num{1.892 +- 0.001} & \num{1.960 +- 0.001}\\
+    \num{1.922 +- 0.001} & \num{1.932 +- 0.001}\\
+    \num{1.916 +- 0.001} & \num{1.972 +- 0.001}\\
+    \num{1.952 +- 0.001} & \num{1.950 +- 0.001}\\
+    \num{1.934 +- 0.001} & \num{1.980 +- 0.001}\\
+    \num{1.900 +- 0.001} & \num{1.910 +- 0.001}\\
+    \num{1.934 +- 0.001] & \num{1.950 +- 0.001}\\
+ \bottomrule
+ \end{tabular}
+\end{table}
+Die beiden Mittelwerte liegen nur um 1,3\% auseinander, es kann also in guter
+Näherung von zwei identischen Pendeln ausgegangen werden.
+Die Schwingungsdauern der gekoppelten Schwingung in Phase und um $\phi=180°$
+verschoben, sind in den Tabellen \ref{tab:l1t+} und \ref{tab:l1t-}
+eingetragen. Wie aus der Theorie zu erwarten ist $T_+$ mit im
+Mittel \SI{1.91780+-0.00032}{\second} nahezu gleich der Schwingungsdauer
+der ungekoppelten Pendel ($\Delta T < 2\%$).
+\begin{table}
+ \noindent
+ \centering
+ \caption{Schwingungsdauer der gekoppelten
+ Pendel bei phasengleicherBewegung}
+ \label{tab:l1t+}
+ \sisetup{table-format=1.2}
+ \begin{tabular}{r}
+ \toprule
+  {$T_{plus}$ [\si{second}]} \\
+ \midrule
+    \num{1.922 +- 0.001}\\
+    \num{1.904 +- 0.001}\\
+    \num{1.848 +- 0.001}\\
+    \num{1.966 +- 0.001}\\
+    \num{1.986 +- 0.001}\\
+    \num{1.900 +- 0.001}\\
+    \num{1.910 +- 0.001}\\
+    \num{1.910 +- 0.001}\\
+    \num{1.910 +- 0.001}\\
+    \num{1.922 +- 0.001}\\
+ \bottomrule
+ \end{tabular}
+\end{table}
+
+\begin{table}
+ \noindent
+ \centering
+ \caption{Schwingungsdauer der gekoppelten
+ Pendel bei gegenphasiger Bewegung}
+ \label{tab:l1t-}
+ \sisetup{table-format=1.2}
+ \begin{tabular}{r}
+ \toprule
+  {$T_{plus}$ [\si{second}]} \\
+ \midrule
+    \num{1.712 +- 0.001}\\
+    \num{1.746 +- 0.001}\\
+    \num{1.778 +- 0.001}\\
+    \num{1.732 +- 0.001}\\
+    \num{1.754 +- 0.001}\\
+    \num{1.760 +- 0.001}\\
+    \num{1.716 +- 0.001}\\
+    \num{1.732 +- 0.001}\\
+    \num{1.726 +- 0.001}\\
+    \num{1.786 +- 0.001}\\
+ \bottomrule
+ \end{tabular}
+\end{table}
+
+Die Schwingungsdauer der gegenphasigen Schwingung liegt dabei mit
+$T_-=\SI{1.744+-0.00032}{\second}$ wie aus der Theorie erwartet niedriger
+als die Schwingungsdauer der gleichphasigen Bewegung
+(Vgl. Gleichungen \ref{eqn:omega+} und \ref{eqn:omega-}).
+
+Die Schwingungsdauer der gekoppelten Schwingung mit $\phi_1=0 , \phi_2\neq 0$
+(im folgenden nur noch gekoppelte Schwingung) liegt bei
+$T_{gek} = \SI{1.893+-0.00032}{\second}$ und damit zwischen $T_+$ und $T_-$,
+was schlüssig erscheint, wenn man die gekoppelte Schwingung als Überlagerung
+von gleich- und gegenphasiger Schwingung betrachtet.
+\begin{table}
+ \noindent
+ \centering
+ \caption{Schwingungsdauer der gekoppelten
+ Schwingung}
+ \label{tab:l1tgek}
+ \sisetup{table-format=1.2}
+ \begin{tabular}{r}
+ \toprule
+  {$T_{gek}$ [\si{second}]} \\
+ \midrule
+    \num{1.864 +- 0.001}\\
+    \num{1.922 +- 0.001}\\
+    \num{1.920 +- 0.001}\\
+    \num{1.934 +- 0.001}\\
+    \num{1.876 +- 0.001}\\
+    \num{1.922 +- 0.001}\\
+    \num{1.900 +- 0.001}\\
+    \num{1.880 +- 0.001}\\
+    \num{1.846 +- 0.001}\\
+    \num{1.866 +- 0.001}\\
+ \bottomrule
+ \end{tabular}
+\end{table}
+
+\begin{table}
+ \noindent
+ \centering
+ \caption{Schwebungsdauer der gekoppelten
+ Schwingung}
+ \label{tab:l1tschwebung}
+ \sisetup{table-format=1.2}
+ \begin{tabular}{r}
+ \toprule
+  {$T_{gek}$ [\si{second}]} \\
+ \midrule
+    \num{21.92 +- 0.01}\\
+    \num{23.12 +- 0.01}\\
+    \num{24.18 +- 0.01}\\
+    \num{26.98 +- 0.01}\\
+    \num{22.70 +- 0.01}\\
+    \num{19.40 +- 0.01}\\
+    \num{25.20 +- 0.01}\\
+    \num{23.78 +- 0.01}\\
+    \num{22.48 +- 0.01}\\
+    \num{25.56 +- 0.01}\\
+ \bottomrule
+ \end{tabular}
+\end{table}
+
+Der Mittelwert für $T_{gek}$ (Tabelle \ref{tab:l1tschwebung})
+beträgt \SI{23.532+-0.0032}{\second}.
+Aus $T_+$ und $T_-$ ergibt sich gemäß \ref{eqn:k} der Kopplungsgrad zu
+$K = \num{0.0946 +- 0.00024}$. Mit \ref{eqn:Ts} ergibt sich als Theoriewert
+für die Schwebungsdauer $T_S = \SI{19.27+-0.05}{\second}$. Dieser Wert liegt
+um \num{18.12+-0.0021}\% unter der gemessenen Schwebungsdauer.

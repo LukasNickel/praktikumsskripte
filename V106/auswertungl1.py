@@ -16,6 +16,8 @@ Tschwebung = unp.uarray(np.genfromtxt('data/l1/Tschwebung.txt', unpack = True)*2
 l = ufloat(0.995, 0.005)
 K = ((Tplus.sum()/10)**2 - (Tminus.sum()/10)**2) / ((Tminus.sum()/10)**2 + (Tplus.sum()/10)**2)
 
+print(((Tplus.sum()/10)*(Tminus.sum()/10)/((Tplus.sum()/10)-(Tminus.sum()/10)))/(Tschwebung.sum()/10))
+
 print('Kopplungskonstante aus T+ und T- errechnet:')
 print(K)
 #print((unp.sqrt(9.81/l + 2*K/l)))

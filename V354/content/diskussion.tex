@@ -1,3 +1,60 @@
 \section{Diskussion}
 \label{sec:Diskussion}
-\subsection{Diskussion: Dämpfungswiderstand}
+\subsection{Einordnung des gemessenen Dämpfungswiderstandes}
+Der Offset bei der Spannung lässt sich herausrechnen, indem jeweils die Differenz
+zwischen zwei aufeinanderfolgenden Werten genommen wird. Auf die Weise erhält man
+auch eine Mittelung für die Werte. Der zeitliche Offset kann nach dem
+selben Prinzip eliminiert werden, indem der erste Messwert als $t_0$ gewertet
+wird und $\Delta t = t_x - t_0$ berechnet wird.
+Der Schwingkreis zeigt in guter Näherung das aus der Theorie bekannte
+Verhalten der exponentiellen Dämpfung. Der errechnete effektive
+Dämpfungswiderstand liegt deutlich höher als der Nennwiderstand.
+Ursachen dafür könnten in weiteren Widerständen in den Leitungen und den
+Bauteilen liegen.
+
+\subsection{Vergleich der Widerstände der aperiodischen Dämpfung
+aus Messung und Theorie}
+Der gemessene Wert für $R_{ap}$ liegt ca. 30\% unter dem Theoriewert.
+Eine Ursache dafür könnte in einer ungenauen Bestimmung des aperiodischen
+Grenzfalls liegen. In Abb. \ref{fig:5bergebnis} ist bei genauem Hinsehen ein
+minimales Überschwingen zu erkennen. Im Vergleich mit Abb. \ref{fig:5büber}
+lässt sich folgern, dass der tatsächliche Wert für $R_{ap}$ etwas höher
+als die gemessenen \SI{3120 +- 20}{\ohm} liegt.
+Dazu kommen weitere Widerstände in der realen Schaltung, sodass der regelbare
+Widerstand nicht den Gesamtwiderstand des Schwingkreises darstellt.
+Daher ist es sinnvoll anzunehmen, dass der Dämpfungswiderstand tatsächlich
+etwas höher und damit näher am Theoriewert liegt.
+
+\subsection{Diskussion der Güte und Resonanzkurve}
+Der Theoriewert, der aus den Parametern des Schwingkreises
+berechnet wurde, für die Güte liegt mit $q = 4.309 \pm 0.010$ etwas höher
+als die gemessenen Werte. Dabei wurde für den Widerstand der Schaltung allerdings
+nur der Nennwiderstand von $R=\SI{509.5+-0.5}{\ohm}$ verwendet. Für den
+tatsächlichen Wert muss außerdem der Innenwiderstand des Generators
+hinzugerechnet werden (Vgl. \cite{officialmanual}, S.296). Dadurch
+sinkt die Güte des Schwingkreises ab (Vgl. Gleichung \ref{eqn:güte1}).
+Der innenwiderstand des Generators ist allerdings leider nicht bekannt. Es lässt
+sich daher nur festhalten, dass die Güte niedriger als \num{4.309 \pm 0.010}
+liegen muss. $q=4$ entspricht dabei
+einem Gesamtwiderstand von $\approx \SI{550}{\ohm}$.
+
+Bei dem Vergleich der Resonanzkurve mit den Messwerten fällt auf, dass $U_{rel}$
+um die Resonanzfrequenz nicht so stark steigt, wie aus der Theorie erwartet.
+Dies liegt daran, dass die Güte aus der Theorie etwas höher liegt als die
+aus den Messwerten errechnete. Eine Ursache dafür könnte darin liegen, dass
+die Güte umgekehrt proportional zu dem Widerstand in der Schaltung ist(siehe
+Gleichung \ref{eqn:güte1}).
+Da der Widerstand in der realen Schaltung durch weitere Verlustwiderstände neben
+dem Nennwiderstand höher als dieser liegt, ergibt sich demnach zwangsläufig
+eine geringere Güte und damit ein niedrigeres Maximum der Resonanzkurve.
+
+
+\subsection{Diskussion der Phasenverschiebung}
+Die Theoriekurve deckt sich bis auf die letzten drei Messwerte in sehr guter
+Näherung mit den Messwerten. In der Theorie ist die Phasenverschiebung
+durch einen Arcustangens gegeben (siehe Gleichung \ref{eqn:phi}) und
+kann damit betragsmäßig $\frac{\pi}{2}$ nicht überschreiten.
+Da die letzten drei Werte allerdings allesamt größer als $\frac{\pi}{2}$ sind,
+kann davon ausgegangen werden, dass ein Fehler bei der Messung gemacht wurde.
+Die Werte wurden mittels der Cursor-Funktion des Ozillographens ermittelt, es
+ist also anzunehmen, dass dabei die Zeiger falsch positioniert wurden.

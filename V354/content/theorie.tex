@@ -9,17 +9,17 @@ Frequenz durchgeführt.
 \subsection{Theoretische Grundlagen}
 Ein RLC-Kreis stellt einen gedämpften Schwingkreis dar. Die Schwingung besteht
 aus einer Verschiebung der elektromagnetischen Energie zwischen
-Spule L und Kondensator C.
+Spule $L$ und Kondensator $C$.
 Dabei ändert der Strom periodisch sein
 Vorzeichen.
 \begin{figure}
   \centering
   \includegraphics{schwingkreis.png}
-  \caption{Gedämpfter Schwingkreis(Quelle: \cite{officialmanual}).}
+  \caption{Gedämpfter Schwingkreis \cite{officialmanual}.}
   \label{fig:RLC}
 \end{figure}
 Eine schematische Darstellung ist in Abbildung \ref{fig:RLC} zu sehen.
-Die Differentialgleichung eines RLC-Kreises entspricht der eines
+Die Differentialgleichung eines $RLC$-Kreises entspricht der eines
 gedämpften, harmonischen
 Oszillators:
 \begin{equation}
@@ -38,7 +38,7 @@ Entsprechen ergeben sich die Lösungen zu:
 \end{equation}
 Dabei ist j die imaginäre Einheit.
 Wie unschwer an Gleichung \ref{eqn:omega} zu erkennen ist müssen abhängig von
-den Parametern R, L und C nun 3 Fälle unterschieden werden.
+den Parametern $R, L$ und $C$ nun 3 Fälle unterschieden werden.
 
 \subsubsection{Fall 1: Starke Dämpfung und aperiodischer Grenzfall}
 In dem Fall $\frac{1}{LC}<\frac{R^2}{4L^2}$ ist der Ausdruck in der
@@ -48,9 +48,10 @@ beschreiben allerdings keine Schwingung, sondern die
 \textbf{aperiodische Dämpfung}. Nach einer gewissen Zeitspanne liegt dabei ein
 gewöhnliches Relaxationsverhalten vor, vorher kann allerdings noch ein Extremwert
 durchschritten werden.
+
 Den Fall $\frac{1}{LC}=\frac{R^2}{4L^2}$ bezeichnet man als
 \textbf{aperiodischen Grenzfall}. Der Wurzelterm in Gleichung \ref{eqn:omega}
-verschwindet und I(t) geht schnellstmöglichst gegen null.
+verschwindet und I(t) geht schnellstmöglichst gegen Null.
 Beide Fälle sind in Abb.\ref{fig:aper} dargestellt, die gestrichelte Linie zeigt
 den aperiodischen Grenzfall, die anderen mögliche Verläufe einer aperiodischen
 Dämpfung:
@@ -58,7 +59,7 @@ Dämpfung:
   \centering
   \includegraphics{aperiode.png}
   \caption{Stromverlauf in einem aperiodisch gedämpften System
-  (Quelle: \cite{officialmanual}).}
+  \cite{officialmanual}.}
   \label{fig:aper}
 \end{figure}
 
@@ -83,15 +84,15 @@ Zwei wichtige Eigenschaften des Schwingkreises bestehen in der Schwingungsdauer
 und der Abklingdauer
 \begin{equation}
   T_{ex} = \frac{1}{2\pi\mu} = \frac{2L}{R}.
+  \label{eqn:mu}
 \end{equation}
 Als Abklingdauer wird die Zeit bezeichnet, nach der die Amplitude auf den e-ten
 Teil ihres ursprünglichen Wertes abgefallen ist.
-
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{gedschwingung.png}
   \caption{Spannungsverlauf bei einer gedämpften Schwingung
-  (Quelle: \cite{officialmanual}).}
+  \cite{officialmanual}.}
   \label{fig:gedschw}
 \end{figure}
 Ein solches gedämpftes Schwingungsverhalten ist in \ref{fig:gedschw} dargestellt.
@@ -124,10 +125,10 @@ Generator und Kondensator:
 \end{equation}
 Dabei bezeichnet $\phi$ die Phasenverschiebung und $U_c$ die Spannung am
 Kondensator.
-Von besonderer Bedeutung ist die Resonanzfrequenz $\omega_{res}$, bei der
+Von besonderer Bedeutung ist die Resonanzfrequenz $\omega_\text{res}$, bei der
 $U_c$ ein Maximum erreicht, das größer ist als $U_0$:
 \begin{equation}
-  \omega_{res} = \sqrt{\frac{1}{LC} - \frac{R^2}{2L^2}}.
+  \omega_\text{res} = \sqrt{\frac{1}{LC} - \frac{R^2}{2L^2}}.
   \label{eqn:wres}
 \end{equation}
 Außerdem erkennt man an \ref{eqn:Uc}, dass $U_c$ für
@@ -136,10 +137,12 @@ geht.
 Eine weitere charakteristische Größe eines angeregten Schwingkreises ist die
 Güte oder Resonanzüberhöhung, gegeben durch:
 \begin{equation}
-  U_{Cmax} = \frac{1}{\omega_0 R C} \cdot U_0 = \frac{1}{R}\sqrt{\frac{L}{C}}U_0.
+  U_\text{Cmax} = \frac{1}{\omega_0 R C} \cdot U_0 = \frac{1}{R}\sqrt{\frac{L}{C}}U_0.
   \label{eqn:güte1}
 \end{equation}
-Die Größe $\frac{1}{\omega_0 R C}$ entspricht dabei der Güte $q$ des Schwingkreises.
+
+Dabei entspricht $$q = \frac{1}{\omega_0 R C}$$ der Güte des Schwingkreises.
+
 Außerdem lässt sich zwischen Güte und Schärfe der Resonanz folgender
 Zusammenhang herstellen:
 \begin{equation}

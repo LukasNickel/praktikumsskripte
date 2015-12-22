@@ -6,10 +6,19 @@
 \contentsline {subsection}{\numberline {1.2}Theoretische Grundlagen}{3}{subsection.1.2}
 \contentsline {subsubsection}{\numberline {1.2.1}Die Gleichsinnige Schwingung}{3}{subsubsection.1.2.1}
 \contentsline {subsubsection}{\numberline {1.2.2}Die Gegensinnige Schwingung}{4}{subsubsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}Schwebung}{4}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3}Gekoppelte Schwingung und Schwebung}{4}{subsubsection.1.2.3}
 \contentsline {section}{\numberline {2}Aufbau und Durchführung}{5}{section.2}
 \contentsline {section}{\numberline {3}Auswertung}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}$l = \SI {99.5}{\centi \meter }$}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Pendellänge $l_1 = \SI {99.5 +- 0.2}{\centi \meter }$}{6}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Ungekoppelt}{6}{subsubsection.3.1.1}
-\contentsline {section}{\numberline {4}Diskussion}{8}{section.4}
-\contentsline {section}{\nonumberline Literatur}{8}{section*.7}
+\contentsline {subsubsection}{\numberline {3.1.2}Gekoppelt}{6}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Schwebung}{8}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Pendellänge $l_2 = \SI {50.2 +- 0.2}{\centi \meter }$}{8}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Ungekoppelt}{8}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Gekoppelt}{9}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Schwebung}{11}{subsubsection.3.2.3}
+\contentsline {section}{\numberline {4}Diskussion}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Schwingungsdauern ungekoppelt und gleichphasig}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Gegenphasige und gekoppelte Schwingung}{12}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Schwebungsdauer}{12}{subsection.4.3}
+\contentsline {section}{\nonumberline Literatur}{12}{section*.12}

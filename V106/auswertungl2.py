@@ -23,6 +23,8 @@ Ttheorie = unp.sqrt(l/9.81)*2*np.pi
 Tminustheorie = 2*np.pi/(unp.sqrt(9.81/l + 2*K/l))
 Tschwebungtheorie = (Tplus.sum()/10)*(Tminus.sum()/10)/((Tplus.sum()/10)-(Tminus.sum()/10))
 
+print(1-(Tschwebungtheorie)/(Tschwebung.sum()/14))
+
 print('Kopplungskonstante aus T+ und T- errechnet:')
 print(K)
 #print((unp.sqrt(9.81/l + 2*K/l)))

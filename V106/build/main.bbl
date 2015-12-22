@@ -19,6 +19,19 @@
 
 \refsection{0}
   \sortlist{nty}{nty}
+    \entry{anleitung}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{Dortmund}{D\bibinitperiod}{TU}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{V106 Gekoppelte Pendel}
+      \field{year}{2015}
+    \endentry
     \entry{Wikipedia}{online}{}
       \list{publisher}{1}{%
         {Wikipedia}%

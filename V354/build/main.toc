@@ -11,7 +11,12 @@
 \contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Zu den Messwerten}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Dämpfungswiderstand}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Aperiodischer Grenzfall)}{8}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Resonanzüberhöhung}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.3}Aperiodischer Grenzfall}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Resonanzüberhöhung}{10}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Phasenverschiebung}{13}{subsection.3.5}
-\contentsline {section}{\nonumberline Literatur}{17}{section*.5}
+\contentsline {section}{\numberline {4}Diskussion}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Einordnung des gemessenen Dämpfungswiderstandes}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Vergleich der Widerstände der aperiodischen Dämpfung aus Messung und Theorie}{16}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Diskussion der Güte und Resonanzkurve}{16}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Diskussion der Phasenverschiebung}{17}{subsection.4.4}
+\contentsline {section}{\nonumberline Literatur}{18}{section*.5}

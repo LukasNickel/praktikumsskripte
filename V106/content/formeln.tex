@@ -1,0 +1,57 @@
+\input{header.tex}
+\subject{Versuch 106}
+\title{Gekoppelte Pendel - Zur Fehlerberechnung}
+\date{
+  Durchführung: 01.12.2015
+  \hspace{3em}
+  Abgabe: 05.01.2016
+}
+\begin{document}
+\thispagestyle{empty}
+Für die Berechnung der Fehler wurde die Gauß'sche Fehlerfortpflanzung
+verwendet. Danach gilt für den Fehler $u_y$ einer resultierenden Größe $y$
+abhängig von mehreren, unabhängigen, fehlerbehafteten Variablen $x_\text{i}$:
+\begin{equation*}
+  \centering
+  \text{\Delta} y = \sqrt{\sum{(\frac{\partial y}{\partial x_\text{i}})\cdot u_{\text{i}}}}.
+  \label{eqn:gauss}
+\end{equation*}
+
+Für den Fehler der Schwingungsdauer $T_+ = 2 \pi\sqrt{l/g}$ der gleichsinnigen
+Schwingung gilt dann:
+\begin{equation*}
+\sigma_{T_+}=\sqrt{\frac{\pi^{2} \sigma_{l}^{2}}{g l}}.
+\end{equation*}
+Die Schwingungsdauer $$T_- = \frac{2\pi}{\sqrt{\frac{g}{l}+\frac{2K}{l}}}$$
+ der gegensinnigen Schwingung wurde nur gemessen, da
+der Kopplungsgrad $K$ nur aus $T_+$ und $T_-$ bekannt ist.
+Damit entfällt die Fehlerrechnung für den Theoriewert.
+
+Der Fehler des Kopplungsgrades $K=\frac{T_+^2-T_-^2}{T_+^2+T_-^2}$ errechnet sich
+ zu:
+\begin{equation*}
+\sigma_K =
+\sqrt{\sigma_{T_{+}}^{2} \left(- \frac{2 T_{+} \left(T_{+}^{2} -
+T_{-}^{2}\right)}{\left(T_{+}^{2} + T_{-}^{2}\right)^{2}} +
+\frac{2 T_{+}}{T_{+}^{2} + T_{-}^{2}}\right)^{2} + \sigma_{T_{-}}^{2}
+\left(- \frac{2 T_{-} \left(T_{+}^{2} - T_{-}^{2}\right)}{\left(T_{+}^{2} +
+T_{-}^{2}\right)^{2}} - \frac{2 T_{-}}{T_{+}^{2} + T_{-}^{2}}\right)^{2}}.
+\end{equation*}
+
+Für den Mittelwert gilt :
+\begin{equation*}
+\bar{x} = \frac{1}{n}\sum_{i=0}^{n}{x_\text{i}}.
+\end{equation*}
+womit sich der mittlere Fehler des Mittelwertes zu
+$$\text{\Delta} \bar{x} = \frac{\sigma_x}{\sqrt{n}}$$
+ergibt.
+
+Die Fehlerformel für die Schwebungsdauer $$T_\text{Schwebung} = \frac
+{T_+ \cdot T_-}{T_+-T_-} $$ist
+\begin{equation*}
+\sigma_{T_{\text{Schwebung}}}=
+  \sqrt{\sigma_{T_{+}}^{2} \left(- \frac{T_{+} T_{-}}{\left(T_{+} -
+  T_{-}\right)^{2}} + \frac{T_{-}}{T_{+} - T_{-}}\right)^{2} + \sigma_{T_{-}}^{2}
+   \left(\frac{T_{+} T_{-}}{\left(T_{+} - T_{-}\right)^{2}} + \frac{T_{+}}{T_{+} - T_{-}}\right)^{2}}.
+\end{equation*}
+\end{document}

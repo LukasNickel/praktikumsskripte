@@ -3,8 +3,10 @@
 \subsection{Zu den Messwerten}
 Im Zuge dieser Auswertung werden nur die relevanten Messwerte herangezogen,
 alle Werte auszudrucken würde den Rahmen dieses Protokolls sprengen.
-Die originalen Messwerte zu den Aufgaben 5c) und 5d) sind hinter das Protokoll
-gehängt, die gesamte Messreihe zu 5a) und 5b) (von dem Oszilloskop abgespeichert)
+Die originalen Messwerte zu der Resonanzüberhöhung und der
+Phasenverschiebung sind hinter das Protokoll
+gehängt, alle Werte zu der Messung von Dämpfungswiderstand
+und aperiodischem Grenzfall (von dem Oszilloskop abgespeichert)
 sind auf Wunsch über den Link im Quellenverzeichnis zu finden
 (siehe \cite{messwerte}).
 \subsection{Dämpfungswiderstand}
@@ -24,7 +26,7 @@ Werte sei auf Quelle \cite{messwerte} verwiesen.
 \begin{table}
 \noindent
 \centering
-\caption{Messwerte 5a)}
+\caption{Extrema der Spannungen (Offset beachten))}
 \label{tab:5a}
 \sisetup{table-format=1.2}
 \begin{tabular}{rr}
@@ -61,7 +63,7 @@ Der negative Zeitabschnitt bei den ersten beiden Messwerten
 sowie die Tatsache, dass
 die Messwerte der Spannung
 offensichtlich einem Offset unterliegen,
-spielt für die Berechnung des Dämpfungswiderstandes keine nennenswerte Rolle
+spielt für die Berechnung des Dämpfungswiderstandes keine Rolle
 (siehe Diskussion).
 Als Spannungsamplitude wird im folgenden die Differenz zwischen Maximum und
 Minimum der Spannung bezeichnet, auf Tabelle
@@ -75,7 +77,7 @@ $\frac{1}{e}$tel des ursprünglichen Wertes.
 Da der erste Messwert
 nicht bei t=0 aufgenommen wurde, ergibt sich also
 \begin{equation}
-T_{ex} = t_{1/e} - t_0 = \SI{0.182 +- 0.005}{\milli\second}
+T_\text{ex} = t_{1/e} - t_0 = \SI{0.182 +- 0.005}{\milli\second}
 - \SI{-0.021+-0.005}{\milli\second}=\SI{0.203 +- 0.007}{\milli\second}.
 \end{equation}
 Der Exponent der e-Funktion muss zu diesem Zeitpunkt -1 betragen (auf 4$/e=e^-1$
@@ -84,48 +86,46 @@ abgefallen), es ergibt sich also:
   -2\pi\mu T_{ex} = -1 \\
   \implies \mu = \frac{1}{2\pi T_{ex}} =  \SI{784.0 +- 27.3}{\per\second}
 \end{equation}
-
-\subsection{Aperiodischer Grenzfall)}
+Damit ergibt sich für den effektiven Dämpfungswiderstand gemäß
+Gleichung \ref{eqn:mu} -umgestellt nach $R$- zu $R_\text{eff}= \SI{99.6+-3.4}{\ohm}$
+und damit \num{107+-0.7}\% höher als der Nennwdiderstand.
+\subsection{Aperiodischer Grenzfall}
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{data/F0001TEK.jpg}
-  \caption{Spannungsverlauf bei aperiodischer Dämpfung.}
+  \caption{Spannungsverlauf bei aperiodischer Dämpfung mit $R = \SI{3120 +- 20}{\ohm}$.}
   \label{fig:5bergebnis}
 \end{figure}
-
 Abb.\ref{fig:5bergebnis} zeigt den gemessenen Spannungsabfall für
-$R$ = \SI{3120 +- 20}{\ohm}.
+$R = \SI{3120 +- 20}{\ohm}$.
 Bei diesem Widerstand tritt die aperiodische Dämpfung auf, was daran zu erkennen
 ist dass kein Überschwingen stattfindet wie z.B. in Abb.\ref{fig:über}, bei
-der ein Widerstand von $R$ = \SI{2260 +- 20}{\ohm} eingestellt wurde.
+der ein Widerstand von $R = \SI{2260 +- 20}{\ohm}$ eingestellt wurde.
 \begin{figure}
   \centering
-  \includegraphics{data/F0002TEK.jpg}
+  \includegraphics[width=\textwidth]{data/F0002TEK.jpg}
   \caption{Spannungsverlauf bei aperiodischer Dämpfung mit $R \neq R_{ap}$}
   \label{fig:über}
 \end{figure}
 
 Der theoretische Wert berechnet sich gemäß:
 \begin{equation}
-  \frac{1}{LC} = R_{ap}^2/4L^2 \\
-  \implies R_{ap} = \sqrt{\frac{4L}{C}} = \SI{4390.4 \pm 9.0}{\ohm}.
+  \frac{1}{LC} = R_\text{ap}^2/4L^2 \\
+  \implies R_\text{ap} = \sqrt{\frac{4L}{C}} = \SI{4390.4 \pm 9.0}{\ohm}.
 \end{equation}
 
 Für den Fehler gilt dabei gemäß der Gaußschen Fehlerfortpflanzung:
 \begin{equation}
-  \Delta R = \sqrt{(\frac{\partial L}{\partial R(C,L)})\Delta L
-  + (\frac{\partial R(C,L)}{\partial C})\Delta C}
+  \Delta R = \sqrt{\left.\frac{\partial L}{\partial R(C,L)}\right.\Delta L
+  + \left.\frac{\partial R(C,L)}{\partial C}\right. \Delta C}
   \label{eqn:gauss}
 \end{equation}
 
-Der theoretische Wert weicht recht deutlich (\~40\%) von dem gemessenen ab.
+Der theoretische Wert weicht recht deutlich (\~30\%) von dem gemessenen ab.
 Eine Erklärung dafür könnten die weiteren internen Widerstände sein, die in
 der Schaltung in Form von Kabel u.ä. enthalten sind. Außerdem ist die Toleranz
-des regelbaren Widerstandes nicht bekannt. Die Ungenauigkeit von R leigt also
+des regelbaren Widerstandes nicht bekannt. Die Ungenauigkeit von R liegt also
 tatsächlich höher als die angegeben \SI{+-20}{\ohm}.
-Ohne Genaueres über den verwendeten Widerstand zu wissen, erscheint die
-Abweichung vom Theoriewert allerding recht hoch und lässt einen Fehler
-bei der Messung vermuten.
 
 \subsection{Resonanzüberhöhung}
 \label{sec:5c}
@@ -134,7 +134,7 @@ relativ zu der Erregerspannung berechnet. Da beide Werte mit dem selben Tastkopf
 gemessen wurden, kann die Frequenzabhängigkeit dieses vernachlässigt werden
 und man erhält $U_{rel}=\frac{U_c}{U_0}$. Die Messwerte sind in
 Tabelle \ref{tab:5b} dargestellt.
-\begin{table}
+\begin{table}[H]
 \centering
 \caption{Frequenzabhängige Spannung an Schwingkreis und Generator)}
 \label{tab:5b}
@@ -165,16 +165,20 @@ Tabelle \ref{tab:5b} dargestellt.
 \bottomrule
 \end{tabular}
 \end{table}
-\begin{figure}
+\begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{5c.pdf}
-  \caption{Halblogarithmische Auftragung von $U_{rel}$ gegen $f$}
+  \includegraphics[width=\textwidth]{5cfit.pdf}
+  \caption{Halblogarithmische Auftragung von $U_\text{rel}$ gegen $f$}
   \label{fig:5cergebnis}
 \end{figure}
 In Abb.\ref{fig:5cergebnis} lässt sich das qualitativ erwartete Ergebnis
 wiederfinden. Um die Resonanzfrequenz $\omega_0$ steigt die Kondensatorspannung
-sprunghaft an, für geringe Frequenzen nähert sie sich der Erregerspannung $U_0$.
-Auffällig ist der Wert bei $f$=\SI{4.26}{\kilo\hertz},
+sprunghaft an, für geringe Frequenzen nähert sie sich der Erregerspannung $U_0$
+($\rightarrow U_{rel}=1$). Die in der Abbildung aufgetragene Resonanzkurve
+deckt sich in weiten Teilen mit den Messwerten. Um die Resonanzfrequenz verläuft
+die Resonanzkurve etwas höher.
+
+Auffällig ist der Messert bei $f$=\SI{4.26}{\kilo\hertz},
 bei dem die Kondensatorspannung unter
 $U_0$ fällt. Dies ist mit der Theorie nicht vereinbar und am ehesten auf einen
 Fehler bei der Messung von $U_c$ zurückzuführen. Die maximale Spannung liegt
@@ -183,7 +187,7 @@ bei $U_{max} = \SI{5.52 +- 0.005}{\volt}$. $U_0$ beträgt dabei \SI{1.38 +- 0.00
 
 Zur Bestimmung der Schärfe der Resonanz ist es zweckmäßig den Bereich um die
 Resonanzfrequenz linear darzustellen, so zu sehen in Abb.\ref{fig:5clin}.
-\begin{figure}
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{5c2.pdf}
   \caption{$U_{rel}$ um die Resonanzfrequenz linear aufgetragen}
@@ -194,12 +198,13 @@ $\omega$ = \SI{34 +- 1}{\kilo\hertz}.
 In vorliegendem Fall entspricht $U_{rel}(\omega_{\pm})$ dem 2.83 fachen von $U_0$.
 Diese Werte werden bei $\omega_-$ = \SI{30+-1}{\kilo\hertz}
 ($U_{rel}=\num{2.816+-0.01}$) und
-$\omega_+$=\SI{38+-1}{\kilo\hertz} ($U_{rel} = \num{2.833+-0.01}$) erreicht.
+$\omega_+$=\SI{38+-1}{\kilo\hertz} ($U_{rel} = \num{2.833+-0.01}$)
+(Vgl. Tabelle \ref{tab:5b}) erreicht.
 Gemäß Gleichung \ref{eqn:güte2} ergibt
 sich demnach für die Güte:
 
-$q = \frac{\SI{34+-1}{\kilo\hertz}}{\SI{38+-1}{\kilo\hertz}-\SI{30+-1}
-{\kilo\hertz}} = \num{4.2+-0.8}$ .
+$$q = \frac{\SI{34+-1}{\kilo\hertz}}{\SI{38+-1}{\kilo\hertz}-\SI{30+-1}
+{\kilo\hertz}} = \num{4.2+-0.8}$$ .
 
 Dieser Wert weicht nur um \num{6.0+-0.17}\% von dem Wert ab, der aus der maximalen
 Spannung hergeleitet wurde. Die Abweichung lässt sich neben Messfehlern in erster
@@ -209,7 +214,7 @@ $U_{Cmax}$ sowie $\omega_\pm$ begrenzt. Die maximale Spannung kann durchaus
 einige Prozentpunkte höher als der höchste gemessene Wert von $4\cdot U_0$
 liegen.
 Berechnet man die Güte anhand der Parameter des Schwingkreises
-(Vgl. \ref{eqn:güte1}) erhält man mit: \\
+(Vgl. Gleichung \ref{eqn:güte1}) erhält man mit: \\
 $L = \SI{10.11 +- 0.03}{\milli\henry}$  \\
 $C = \SI{2.098 +- 0.006}{\nano\farad}$ und \\
 $R = \SI{509.5 +- 0.5}{\ohm}$ \\
@@ -225,6 +230,9 @@ Die Messwerte für $\phi$ sind in folgender Tabelle auffgelistet, Abb.
 \ref{fig:5dlog} zeigt $\phi$ in Abhängigkeit von der Frequenz $f$ mit
 logarithmischer x-Achse, Abb.\ref{fig:5dlin} den Bereich um $\phi$ = 90° mit
 linearen Achsenskalierungen.
+Bei dem Vergleich der Messwerte mit der Theoriekurve in Abb.\ref{fig:5dlog}
+fällt auf, dass die Messwerte nicht wie zu erwarten durch $\frac{\pi}{2}$
+beschränkt sind (siehe Diskussion).
 \begin{table}
 \centering
 \caption{Phasenverschiebung in Abhängigkeit von der Frequenz)}

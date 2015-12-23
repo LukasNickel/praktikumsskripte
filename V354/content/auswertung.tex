@@ -71,8 +71,8 @@ Minimum der Spannung bezeichnet, auf Tabelle
 Differenz zweier aufeinanderfolgenden Werte.
 Der Abfall der Spannung soll der Theorie
 zufolge(siehe Gleichung \ref{eqn:Ischwingung})
-mit $e^{-2\pi\mu t}$ erfolgen. Die Spannungsamplitude fällt bei t=\SI{0.0001816}
-{\second} zum ersten Mal unter
+mit $e^{-2\pi\mu t}$ erfolgen. Die Spannungsamplitude fällt bei t=\SI{0.1816}
+{\milli\second} zum ersten Mal unter
 $\frac{1}{e}$tel des ursprünglichen Wertes.
 Da der erste Messwert
 nicht bei t=0 aufgenommen wurde, ergibt sich also
@@ -116,8 +116,8 @@ Der theoretische Wert berechnet sich gemäß:
 
 Für den Fehler gilt dabei gemäß der Gaußschen Fehlerfortpflanzung:
 \begin{equation}
-  \Delta R = \sqrt{\left.\frac{\partial L}{\partial R(C,L)}\right.\Delta L
-  + \left.\frac{\partial R(C,L)}{\partial C}\right. \Delta C}
+  \Delta R = \sqrt{\left( \frac{\partial R(C,L)}{\partial L}\right) \Delta L
+  + \left( \frac{\partial R(C,L)}{\partial C} \right) \Delta C}
   \label{eqn:gauss}
 \end{equation}
 
@@ -180,9 +180,9 @@ die Resonanzkurve etwas höher.
 
 Auffällig ist der Messert bei $f$=\SI{4.26}{\kilo\hertz},
 bei dem die Kondensatorspannung unter
-$U_0$ fällt. Dies ist mit der Theorie nicht vereinbar und am ehesten auf einen
+$U_0$ fällt. Dies ist mit der Theorie nicht vereinbar und auf einen
 Fehler bei der Messung von $U_c$ zurückzuführen. Die maximale Spannung liegt
-bei $U_{max} = \SI{5.52 +- 0.005}{\volt}$. $U_0$ beträgt dabei \SI{1.38 +- 0.005}
+bei $U_\text{max} = \SI{5.52 +- 0.005}{\volt}$. $U_0$ beträgt dabei \SI{1.38 +- 0.005}
 {\volt}, damit beträgt die Resonanzüberhöhung \num{4.000 +- 0.015}.
 
 Zur Bestimmung der Schärfe der Resonanz ist es zweckmäßig den Bereich um die
@@ -190,7 +190,7 @@ Resonanzfrequenz linear darzustellen, so zu sehen in Abb.\ref{fig:5clin}.
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{5c2.pdf}
-  \caption{$U_{rel}$ um die Resonanzfrequenz linear aufgetragen}
+  \caption{$U_ \text{rel}$ um die Resonanzfrequenz linear aufgetragen}
   \label{fig:5clin}
 \end{figure}
 Die Resonanzfrequenz liegt im Rahmen der aufgenommenen Messwerte bei
@@ -210,7 +210,7 @@ Dieser Wert weicht nur um \num{6.0+-0.17}\% von dem Wert ab, der aus der maximal
 Spannung hergeleitet wurde. Die Abweichung lässt sich neben Messfehlern in erster
 Linie auf die geringe Anzahl an Messwerten im Bereich der Resonanzfrequenz
 zurückführen. Dadurch ist die Genauigkeit bei der Bestimmung von
-$U_{Cmax}$ sowie $\omega_\pm$ begrenzt. Die maximale Spannung kann durchaus
+$U_\text{Cmax}$ sowie $\omega_\pm$ begrenzt. Die maximale Spannung kann durchaus
 einige Prozentpunkte höher als der höchste gemessene Wert von $4\cdot U_0$
 liegen.
 Berechnet man die Güte anhand der Parameter des Schwingkreises
@@ -282,7 +282,7 @@ beschränkt sind (siehe Diskussion).
 
 In Abb. \ref{fig:5dlin} sind außerdem die Geraden eingetragen um das Ablesen
 der relevanten Phasenverschiebungen zu erleichtern.
-$\omega_1$ ($\phi$ = 45°) liegt ziemlich fast exakt bei 30kHz ($\phi$=45,36°),
+$\omega_1$ ($\phi$ = 45°) liegt fast exakt bei 30kHz ($\phi$=45,36°),
 $\omega_2$ liegt bei \~ 39kHz. Damit liegen $\omega_1$ und $\omega_2$ bei
 ähnlichen Frequenzen wie zuvor (Vgl. Abschnitt \ref{sec:5c}) schon $\omega_-$
 und $\omega_+$ Dies ist das erwartete Ergebnis für den Fall schwacher

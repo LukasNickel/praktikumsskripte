@@ -32,4 +32,4 @@ urelplus = uplus / u0plus
 q = wres/(wplus-wminus)
 
 
-print(R*C)
+print(L*C)

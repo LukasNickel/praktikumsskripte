@@ -15,7 +15,7 @@ w=2*np.pi*f
 errphi = 2
 erru = 0.05
 errf = 50
-x=np.linspace(0,40000, num=1000)
+x=np.linspace(0,40500, num=1000)
 p = (2.1e-11, 1e-7, 1, 34000*2*np.pi, 1)
 
 def g(y):

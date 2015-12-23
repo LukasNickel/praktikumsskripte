@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  22 DEC 2015 17:44
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/W32TeX) (rev 5238)  (format=lualatex 2015.10.4)  23 DEC 2015 12:54
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -322,7 +322,7 @@ Lua-only attribute luaotfload@cursbase = 6
 Lua-only attribute luaotfload@curscurs = 7
 Lua-only attribute luaotfload@cursdone = 8
 Lua-only attribute luaotfload@state = 9
-luaotfload | main : fontloader loaded in 0.034 seconds
+luaotfload | main : fontloader loaded in 0.036 seconds
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.find_vf_file' at position 1 in `find_vf_file'.
@@ -2501,12 +2501,9 @@ File: 5d2.pdf Graphic file (type pdf)
  <use 5d2.pdf>
 Package pdftex.def Info: 5d2.pdf used on input line 277.
 (pdftex.def)             Requested size: 418.25555pt x 313.68826pt.
-) (./content/diskussion.tex [13] [14<./5d.pdf>] [15<./5d2.pdf>]
-
-LaTeX Warning: Reference `fig:5büber' on page 16 undefined on input line 20.
-
-) [16] [17](load luc: C:/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/l
-mromancaps10-regular.luc)
+) (./content/diskussion.tex [13] [14<./5d.pdf>] [15<./5d2.pdf>]) [16] [17](load 
+luc: C:/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmromancaps10-regu
+lar.luc)
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 28.
 
 (c:/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmtt.fd
@@ -2528,10 +2525,6 @@ Package rerunfilecheck Info: File `main.aux' has not changed.
 (rerunfilecheck)             Checksum: A532F24598BF9BED22F131E8C37BCBCA;9766.
 Package rerunfilecheck Info: File `main.toc' has not changed.
 (rerunfilecheck)             Checksum: ADB4BF007EF5F49324D9A956F2B1547C;1199.
-
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
@@ -2539,13 +2532,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45122 strings out of 494897
+ 45121 strings out of 494897
  100000,1648299 words of node,token memory allocated
  667 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 18 kern, 22 attribute, 61 glue_spec, 22 att
 ribute_list, 2 action, 1 write nodes
-   avail lists: 1:2,2:10022,3:229,4:945,5:225,6:3383,7:88,8:23,9:207,10:432,11:1
- 47361 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:10069,3:230,4:941,5:226,6:3402,7:95,8:23,9:206,10:432,11:1
+ 47360 multiletter control sequences out of 65536+600000
  170 fonts using 39285055 bytes
  69i,12n,104p,1248b,2073s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
@@ -2561,10 +2554,10 @@ entype/public/lm/lmroman10-regular.otf><c:/texlive/2015/texmf-dist/fonts/opentyp
 e/public/lm/lmroman12-regular.otf><c:/texlive/2015/texmf-dist/fonts/opentype/pub
 lic/lm/lmsans10-bold.otf><c:/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
 roman12-bold.otf>
-Output written on main.pdf (20 pages, 352784 bytes).
+Output written on main.pdf (20 pages, 354992 bytes).
 
-PDF statistics: 590 PDF objects out of 1000 (max. 8388607)
- 379 compressed objects within 4 object streams
+PDF statistics: 593 PDF objects out of 1000 (max. 8388607)
+ 380 compressed objects within 4 object streams
  73 named destinations out of 1000 (max. 131072)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
